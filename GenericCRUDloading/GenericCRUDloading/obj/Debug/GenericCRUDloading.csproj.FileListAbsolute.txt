@@ -1,0 +1,7 @@
+C:\Users\Nimap\source\CSharpAdvance\GenericCRUDloading\GenericCRUDloading\bin\Debug\GenericCRUDloading.exe.config
+C:\Users\Nimap\source\CSharpAdvance\GenericCRUDloading\GenericCRUDloading\bin\Debug\GenericCRUDloading.exe
+C:\Users\Nimap\source\CSharpAdvance\GenericCRUDloading\GenericCRUDloading\bin\Debug\GenericCRUDloading.pdb
+C:\Users\Nimap\source\CSharpAdvance\GenericCRUDloading\GenericCRUDloading\obj\Debug\GenericCRUDloading.csproj.AssemblyReference.cache
+C:\Users\Nimap\source\CSharpAdvance\GenericCRUDloading\GenericCRUDloading\obj\Debug\GenericCRUDloading.csproj.CoreCompileInputs.cache
+C:\Users\Nimap\source\CSharpAdvance\GenericCRUDloading\GenericCRUDloading\obj\Debug\GenericCRUDloading.exe
+C:\Users\Nimap\source\CSharpAdvance\GenericCRUDloading\GenericCRUDloading\obj\Debug\GenericCRUDloading.pdb

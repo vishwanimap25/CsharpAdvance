@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nimap\\source\\CSharpAdvance\\GenericCRUDloading\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C95B27E-F98F-400D-A92F-9FD5439D8AD8}|GenericCRUDloading\\GenericCRUDloading.csproj|c:\\users\\nimap\\source\\csharpadvance\\genericcrudloading\\genericcrudloading\\generic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C95B27E-F98F-400D-A92F-9FD5439D8AD8}|GenericCRUDloading\\GenericCRUDloading.csproj|solutionrelative:genericcrudloading\\generic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C95B27E-F98F-400D-A92F-9FD5439D8AD8}|GenericCRUDloading\\GenericCRUDloading.csproj|c:\\users\\nimap\\source\\csharpadvance\\genericcrudloading\\genericcrudloading\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C95B27E-F98F-400D-A92F-9FD5439D8AD8}|GenericCRUDloading\\GenericCRUDloading.csproj|solutionrelative:genericcrudloading\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Generic.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\GenericCRUDloading\\GenericCRUDloading\\Generic.cs",
+              "RelativeDocumentMoniker": "GenericCRUDloading\\Generic.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\GenericCRUDloading\\GenericCRUDloading\\Generic.cs",
+              "RelativeToolTip": "GenericCRUDloading\\Generic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T04:54:07.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\GenericCRUDloading\\GenericCRUDloading\\Program.cs",
+              "RelativeDocumentMoniker": "GenericCRUDloading\\Program.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\GenericCRUDloading\\GenericCRUDloading\\Program.cs",
+              "RelativeToolTip": "GenericCRUDloading\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T04:53:18.247Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
