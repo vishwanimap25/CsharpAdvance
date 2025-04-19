@@ -10,7 +10,9 @@ namespace GenericCRUDloading
     {
         static void Main(string[] args)
         {
+            Generic.Examples();
 
+            
         }
     }
 }
