@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Nimap\\source\\CSharpAdvance\\GenericCRUDloading\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C95B27E-F98F-400D-A92F-9FD5439D8AD8}|GenericCRUDloading\\GenericCRUDloading.csproj|c:\\users\\nimap\\source\\csharpadvance\\genericcrudloading\\genericcrudloading\\loadingpractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C95B27E-F98F-400D-A92F-9FD5439D8AD8}|GenericCRUDloading\\GenericCRUDloading.csproj|solutionrelative:genericcrudloading\\loadingpractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C95B27E-F98F-400D-A92F-9FD5439D8AD8}|GenericCRUDloading\\GenericCRUDloading.csproj|c:\\users\\nimap\\source\\csharpadvance\\genericcrudloading\\genericcrudloading\\structureex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C95B27E-F98F-400D-A92F-9FD5439D8AD8}|GenericCRUDloading\\GenericCRUDloading.csproj|solutionrelative:genericcrudloading\\structureex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C95B27E-F98F-400D-A92F-9FD5439D8AD8}|GenericCRUDloading\\GenericCRUDloading.csproj|C:\\Users\\Nimap\\source\\CSharpAdvance\\GenericCRUDloading\\genericcrudloading\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C95B27E-F98F-400D-A92F-9FD5439D8AD8}|GenericCRUDloading\\GenericCRUDloading.csproj|solutionrelative:genericcrudloading\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C95B27E-F98F-400D-A92F-9FD5439D8AD8}|GenericCRUDloading\\GenericCRUDloading.csproj|c:\\users\\nimap\\source\\csharpadvance\\genericcrudloading\\genericcrudloading\\generic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C95B27E-F98F-400D-A92F-9FD5439D8AD8}|GenericCRUDloading\\GenericCRUDloading.csproj|C:\\Users\\Nimap\\source\\CSharpAdvance\\GenericCRUDloading\\genericcrudloading\\generic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C95B27E-F98F-400D-A92F-9FD5439D8AD8}|GenericCRUDloading\\GenericCRUDloading.csproj|solutionrelative:genericcrudloading\\generic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C95B27E-F98F-400D-A92F-9FD5439D8AD8}|GenericCRUDloading\\GenericCRUDloading.csproj|c:\\users\\nimap\\source\\csharpadvance\\genericcrudloading\\genericcrudloading\\loadingpractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C95B27E-F98F-400D-A92F-9FD5439D8AD8}|GenericCRUDloading\\GenericCRUDloading.csproj|solutionrelative:genericcrudloading\\loadingpractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,12 +39,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "structureEx.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\GenericCRUDloading\\GenericCRUDloading\\structureEx.cs",
+              "RelativeDocumentMoniker": "GenericCRUDloading\\structureEx.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\GenericCRUDloading\\GenericCRUDloading\\structureEx.cs",
+              "RelativeToolTip": "GenericCRUDloading\\structureEx.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T04:53:37.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "LoadingPractice.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\GenericCRUDloading\\GenericCRUDloading\\LoadingPractice.cs",
               "RelativeDocumentMoniker": "GenericCRUDloading\\LoadingPractice.cs",
               "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\GenericCRUDloading\\GenericCRUDloading\\LoadingPractice.cs",
               "RelativeToolTip": "GenericCRUDloading\\LoadingPractice.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwBoAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-19T09:01:40.607Z",
               "EditorCaption": ""
@@ -53,7 +70,7 @@
               "RelativeDocumentMoniker": "GenericCRUDloading\\Generic.cs",
               "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\GenericCRUDloading\\GenericCRUDloading\\Generic.cs",
               "RelativeToolTip": "GenericCRUDloading\\Generic.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-19T04:54:07.467Z",
               "EditorCaption": ""
@@ -66,7 +83,7 @@
               "RelativeDocumentMoniker": "GenericCRUDloading\\Program.cs",
               "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\GenericCRUDloading\\GenericCRUDloading\\Program.cs",
               "RelativeToolTip": "GenericCRUDloading\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-19T04:53:18.247Z",
               "EditorCaption": ""

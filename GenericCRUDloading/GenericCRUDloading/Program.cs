@@ -12,7 +12,8 @@ namespace GenericCRUDloading
         {
             Generic.Examples();
 
-            
+            structureEx newEX = new structureEx();
+            newEX.funct1();
         }
     }
 }
