@@ -1,20 +1,45 @@
 using System.Diagnostics;
 using CodeFirstApproachASPcore6.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace CodeFirstApproachASPcore6.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly StudentDBcontext studentDB;
 
-        public HomeController(ILogger<HomeController> logger)
+        //private readonly ILogger<HomeController> _logger;
+
+        //public HomeController(ILogger<HomeController> logger)
+        //{
+        //    _logger = logger;
+        //}
+
+        public HomeController(StudentDBcontext studentDB)
         {
-            _logger = logger;
+            this.studentDB = studentDB;
         }
 
-        public IActionResult Index()
+        public async  Task<IActionResult> Index()
         {
+            var stdData = studentDB.Students.ToListAsync();
+            return View(stdData);
+        }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async  Task<IActionResult> Create(Student std)
+        {
+            if (ModelState.IsValid) {
+                await studentDB.Students.AddAsync(std);
+                await studentDB.SaveChangesAsync();
+                return RedirectToAction("Index", "Home");
+            }
             return View();
         }
 

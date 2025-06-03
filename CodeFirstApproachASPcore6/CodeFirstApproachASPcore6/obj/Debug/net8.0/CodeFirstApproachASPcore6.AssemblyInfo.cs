@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodeFirstApproachASPcore6")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0657ff1e43d402f90235dca85170f784e8faaea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5381ce738c962afaa935bd48480859a3acaf1c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodeFirstApproachASPcore6")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodeFirstApproachASPcore6")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
