@@ -1,0 +1,129 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|c:\\users\\nimap\\source\\csharpadvance\\enitityframeworkcodefirstapp\\enitityframeworkcodefirstapp\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|solutionrelative:enitityframeworkcodefirstapp\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|c:\\users\\nimap\\source\\csharpadvance\\enitityframeworkcodefirstapp\\enitityframeworkcodefirstapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|solutionrelative:enitityframeworkcodefirstapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|c:\\users\\nimap\\source\\csharpadvance\\enitityframeworkcodefirstapp\\enitityframeworkcodefirstapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|solutionrelative:enitityframeworkcodefirstapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|c:\\users\\nimap\\source\\csharpadvance\\enitityframeworkcodefirstapp\\enitityframeworkcodefirstapp\\models\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|solutionrelative:enitityframeworkcodefirstapp\\models\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|c:\\users\\nimap\\source\\csharpadvance\\enitityframeworkcodefirstapp\\enitityframeworkcodefirstapp\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|solutionrelative:enitityframeworkcodefirstapp\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|c:\\users\\nimap\\source\\csharpadvance\\enitityframeworkcodefirstapp\\enitityframeworkcodefirstapp\\migrations\\20250604062536_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|solutionrelative:enitityframeworkcodefirstapp\\migrations\\20250604062536_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "EnitityFrameworkCodeFirstApp\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "EnitityFrameworkCodeFirstApp\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowEIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T07:21:04.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250604062536_init.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\Migrations\\20250604062536_init.cs",
+              "RelativeDocumentMoniker": "EnitityFrameworkCodeFirstApp\\Migrations\\20250604062536_init.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\Migrations\\20250604062536_init.cs",
+              "RelativeToolTip": "EnitityFrameworkCodeFirstApp\\Migrations\\20250604062536_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T06:25:38.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\Program.cs",
+              "RelativeDocumentMoniker": "EnitityFrameworkCodeFirstApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\Program.cs",
+              "RelativeToolTip": "EnitityFrameworkCodeFirstApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T05:39:14.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\appsettings.json",
+              "RelativeDocumentMoniker": "EnitityFrameworkCodeFirstApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\appsettings.json",
+              "RelativeToolTip": "EnitityFrameworkCodeFirstApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-04T05:35:17.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserDBcontext.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\Models\\UserDBcontext.cs",
+              "RelativeDocumentMoniker": "EnitityFrameworkCodeFirstApp\\Models\\UserDBcontext.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\Models\\UserDBcontext.cs",
+              "RelativeToolTip": "EnitityFrameworkCodeFirstApp\\Models\\UserDBcontext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T05:18:31.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "EnitityFrameworkCodeFirstApp\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\Models\\Users.cs",
+              "RelativeToolTip": "EnitityFrameworkCodeFirstApp\\Models\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T05:15:44.457Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

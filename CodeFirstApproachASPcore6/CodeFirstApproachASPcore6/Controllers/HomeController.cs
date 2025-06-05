@@ -35,7 +35,8 @@ namespace CodeFirstApproachASPcore6.Controllers
         [HttpPost]
         public async  Task<IActionResult> Create(Student std)
         {
-            if (ModelState.IsValid) {
+            if (ModelState.IsValid) 
+             {
                 await studentDB.Students.AddAsync(std);
                 await studentDB.SaveChangesAsync();
                 return RedirectToAction("Index", "Home");
@@ -43,6 +44,11 @@ namespace CodeFirstApproachASPcore6.Controllers
             return View();
         }
 
+        public async Task<IActionResult> Details(int id)
+        {
+            var stdData = studentDB.Students.FirstOrDefaultAsync(x => x.Id == id);
+            return View(stdData);
+        }
         public IActionResult Privacy()
         {
             return View();

@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CodeFirstApproachASPcore6.6ne6puvzow.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6ne6puvzow"},{"Name":"integrity","Value":"sha256-ojCyCply2ft8JyJoYNOIObPQfjYHqHwc0r02QyEKPwQ="},{"Name":"label","Value":"_content/CodeFirstApproachASPcore6/CodeFirstApproachASPcore6.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1143"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ojCyCply2ft8JyJoYNOIObPQfjYHqHwc0r02QyEKPwQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 02 Jun 2025 06:57:33 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1143"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ojCyCply2ft8JyJoYNOIObPQfjYHqHwc0r02QyEKPwQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Jun 2025 04:30:07 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CodeFirstApproachASPcore6/CodeFirstApproachASPcore6.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CodeFirstApproachASPcore6.6ne6puvzow.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ojCyCply2ft8JyJoYNOIObPQfjYHqHwc0r02QyEKPwQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1143"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ojCyCply2ft8JyJoYNOIObPQfjYHqHwc0r02QyEKPwQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 02 Jun 2025 06:57:33 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1143"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ojCyCply2ft8JyJoYNOIObPQfjYHqHwc0r02QyEKPwQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Jun 2025 04:30:07 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CodeFirstApproachASPcore6/css/site.c2tiyv64ts.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
