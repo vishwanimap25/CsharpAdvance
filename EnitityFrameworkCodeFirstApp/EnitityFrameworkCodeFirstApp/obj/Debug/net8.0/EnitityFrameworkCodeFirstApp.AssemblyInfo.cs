@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EnitityFrameworkCodeFirstApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61a45d9e9e95b43b7e88a6e7d69c05fe26dc2ae8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1f3550f6b12b063663a228d78e30bcecfaceb8f")]
 [assembly: System.Reflection.AssemblyProductAttribute("EnitityFrameworkCodeFirstApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EnitityFrameworkCodeFirstApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

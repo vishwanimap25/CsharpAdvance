@@ -3,24 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|c:\\users\\nimap\\source\\csharpadvance\\enitityframeworkcodefirstapp\\enitityframeworkcodefirstapp\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|solutionrelative:enitityframeworkcodefirstapp\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|c:\\users\\nimap\\source\\csharpadvance\\enitityframeworkcodefirstapp\\enitityframeworkcodefirstapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|solutionrelative:enitityframeworkcodefirstapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|c:\\users\\nimap\\source\\csharpadvance\\enitityframeworkcodefirstapp\\enitityframeworkcodefirstapp\\migrations\\20250606093844_addproduvt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|solutionrelative:enitityframeworkcodefirstapp\\migrations\\20250606093844_addproduvt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|c:\\users\\nimap\\source\\csharpadvance\\enitityframeworkcodefirstapp\\enitityframeworkcodefirstapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|solutionrelative:enitityframeworkcodefirstapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|c:\\users\\nimap\\source\\csharpadvance\\enitityframeworkcodefirstapp\\enitityframeworkcodefirstapp\\models\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|solutionrelative:enitityframeworkcodefirstapp\\models\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|c:\\users\\nimap\\source\\csharpadvance\\enitityframeworkcodefirstapp\\enitityframeworkcodefirstapp\\models\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|solutionrelative:enitityframeworkcodefirstapp\\models\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|c:\\users\\nimap\\source\\csharpadvance\\enitityframeworkcodefirstapp\\enitityframeworkcodefirstapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|solutionrelative:enitityframeworkcodefirstapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|c:\\users\\nimap\\source\\csharpadvance\\enitityframeworkcodefirstapp\\enitityframeworkcodefirstapp\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|solutionrelative:enitityframeworkcodefirstapp\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|c:\\users\\nimap\\source\\csharpadvance\\enitityframeworkcodefirstapp\\enitityframeworkcodefirstapp\\db context\\dbcontextfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|solutionrelative:enitityframeworkcodefirstapp\\db context\\dbcontextfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|c:\\users\\nimap\\source\\csharpadvance\\enitityframeworkcodefirstapp\\enitityframeworkcodefirstapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|solutionrelative:enitityframeworkcodefirstapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|c:\\users\\nimap\\source\\csharpadvance\\enitityframeworkcodefirstapp\\enitityframeworkcodefirstapp\\migrations\\20250606093844_addproduvt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|solutionrelative:enitityframeworkcodefirstapp\\migrations\\20250606093844_addproduvt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|c:\\users\\nimap\\source\\csharpadvance\\enitityframeworkcodefirstapp\\enitityframeworkcodefirstapp\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|solutionrelative:enitityframeworkcodefirstapp\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|c:\\users\\nimap\\source\\csharpadvance\\enitityframeworkcodefirstapp\\enitityframeworkcodefirstapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,16 +51,8 @@
       "RelativeMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|solutionrelative:enitityframeworkcodefirstapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|c:\\users\\nimap\\source\\csharpadvance\\enitityframeworkcodefirstapp\\enitityframeworkcodefirstapp\\db context\\dbcontextfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|solutionrelative:enitityframeworkcodefirstapp\\db context\\dbcontextfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|c:\\users\\nimap\\source\\csharpadvance\\enitityframeworkcodefirstapp\\enitityframeworkcodefirstapp\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|solutionrelative:enitityframeworkcodefirstapp\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|c:\\users\\nimap\\source\\csharpadvance\\enitityframeworkcodefirstapp\\enitityframeworkcodefirstapp\\models\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3B6E1F2-D717-4587-9136-A782CE5FEF16}|EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp.csproj|solutionrelative:enitityframeworkcodefirstapp\\models\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,7 +74,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "EnitityFrameworkCodeFirstApp\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\Models\\Category.cs",
+              "RelativeToolTip": "EnitityFrameworkCodeFirstApp\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T11:38:44.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "EnitityFrameworkCodeFirstApp\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\Controllers\\OrderController.cs*",
+              "RelativeToolTip": "EnitityFrameworkCodeFirstApp\\Controllers\\OrderController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T10:19:02.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Orders.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\Models\\Orders.cs",
+              "RelativeDocumentMoniker": "EnitityFrameworkCodeFirstApp\\Models\\Orders.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\Models\\Orders.cs*",
+              "RelativeToolTip": "EnitityFrameworkCodeFirstApp\\Models\\Orders.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T10:02:20.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "20250606093844_addProduvt.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\Migrations\\20250606093844_addProduvt.cs",
               "RelativeDocumentMoniker": "EnitityFrameworkCodeFirstApp\\Migrations\\20250606093844_addProduvt.cs",
@@ -70,25 +121,24 @@
               "RelativeToolTip": "EnitityFrameworkCodeFirstApp\\Migrations\\20250606093844_addProduvt.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T09:38:46.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-06T09:38:46.82Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "EnitityFrameworkCodeFirstApp\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\Controllers\\ProductController.cs",
               "RelativeToolTip": "EnitityFrameworkCodeFirstApp\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA+wBcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-06T06:16:35.765Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\Models\\Product.cs",
               "RelativeDocumentMoniker": "EnitityFrameworkCodeFirstApp\\Models\\Product.cs",
@@ -101,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\Models\\Users.cs",
               "RelativeDocumentMoniker": "EnitityFrameworkCodeFirstApp\\Models\\Users.cs",
@@ -109,24 +159,23 @@
               "RelativeToolTip": "EnitityFrameworkCodeFirstApp\\Models\\Users.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T05:15:44.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-04T05:15:44.457Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "EnitityFrameworkCodeFirstApp\\Controllers\\StudentController.cs",
               "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\Controllers\\StudentController.cs",
               "RelativeToolTip": "EnitityFrameworkCodeFirstApp\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA1wAgAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAgAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-06T05:18:29.54Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "EnitityFrameworkCodeFirstApp\\Controllers\\UsersController.cs",
@@ -138,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "Students.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\Models\\Students.cs",
               "RelativeDocumentMoniker": "EnitityFrameworkCodeFirstApp\\Models\\Students.cs",
@@ -146,11 +195,12 @@
               "RelativeToolTip": "EnitityFrameworkCodeFirstApp\\Models\\Students.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T03:43:34.275Z"
+              "WhenOpened": "2025-06-06T03:43:34.275Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "DBcontextFile.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\DB Context\\DBcontextFile.cs",
               "RelativeDocumentMoniker": "EnitityFrameworkCodeFirstApp\\DB Context\\DBcontextFile.cs",
@@ -162,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\Program.cs",
               "RelativeDocumentMoniker": "EnitityFrameworkCodeFirstApp\\Program.cs",
@@ -174,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\EnitityFrameworkCodeFirstApp\\EnitityFrameworkCodeFirstApp\\appsettings.json",
               "RelativeDocumentMoniker": "EnitityFrameworkCodeFirstApp\\appsettings.json",
