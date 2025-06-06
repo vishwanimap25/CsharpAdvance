@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{3C95B27E-F98F-400D-A92F-9FD5439D8AD8}|GenericCRUDloading\\GenericCRUDloading.csproj|solutionrelative:genericcrudloading\\generic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C95B27E-F98F-400D-A92F-9FD5439D8AD8}|GenericCRUDloading\\GenericCRUDloading.csproj|c:\\users\\nimap\\source\\csharpadvance\\genericcrudloading\\genericcrudloading\\loadingpractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C95B27E-F98F-400D-A92F-9FD5439D8AD8}|GenericCRUDloading\\GenericCRUDloading.csproj|C:\\Users\\Nimap\\source\\CSharpAdvance\\GenericCRUDloading\\genericcrudloading\\loadingpractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C95B27E-F98F-400D-A92F-9FD5439D8AD8}|GenericCRUDloading\\GenericCRUDloading.csproj|solutionrelative:genericcrudloading\\loadingpractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -59,8 +59,7 @@
               "RelativeToolTip": "GenericCRUDloading\\LoadingPractice.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T09:01:40.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T09:01:40.607Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "GenericCRUDloading\\Generic.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T04:54:07.467Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T04:54:07.467Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "GenericCRUDloading\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T04:53:18.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T04:53:18.247Z"
             }
           ]
         }

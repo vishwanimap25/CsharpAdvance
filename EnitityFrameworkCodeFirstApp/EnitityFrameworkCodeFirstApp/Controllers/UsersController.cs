@@ -8,13 +8,17 @@ namespace EnitityFrameworkCodeFirstApp.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
-        private readonly UserDBcontext userdbcontext;
+        private readonly DBcontextFile userdbcontext;
 
-        public UsersController(UserDBcontext userdbcontext)
+        public UsersController(DBcontextFile userdbcontext)
         {
             this.userdbcontext = userdbcontext;
         }
 
+
+        //CRUD : Create Read Update Delete
+
+        //HttpGet = Read
         [HttpGet]
         [Route ("GetUsers")]
         public List<Users> GetUsers()
@@ -22,6 +26,7 @@ namespace EnitityFrameworkCodeFirstApp.Controllers
             return userdbcontext.Users.ToList();
         }
 
+        //HttpGet = Read
         [HttpGet]
         [Route("GetUser")]
         public Users GetUser(int id)
@@ -29,6 +34,7 @@ namespace EnitityFrameworkCodeFirstApp.Controllers
             return userdbcontext.Users.Where(x => x.Id == id).FirstOrDefault();
         }
 
+        //HttpPost = Create
         [HttpPost]
         [Route ("AddUsers")]
         public string AddUsers(Users users)
@@ -39,6 +45,8 @@ namespace EnitityFrameworkCodeFirstApp.Controllers
             return "User Added";
         }
 
+
+        //HttpPut = Update
         [HttpPut]
         [Route("UpdateUser")]
         public string UpdateUsers(Users users) 
@@ -51,6 +59,7 @@ namespace EnitityFrameworkCodeFirstApp.Controllers
         }
 
 
+        //HttpDelete = Delete
         [HttpDelete]
         [Route("UserDelete")]
         public string DeleteUsers(int id) 
@@ -64,7 +73,7 @@ namespace EnitityFrameworkCodeFirstApp.Controllers
             }
             else
             {
-                return "user not found";
+                return "user not found"; 
             }
         }
 
