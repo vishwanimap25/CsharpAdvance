@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Nimap\\source\\CSharpAdvance\\ProjectEntityManagementWithCRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{23847589-4E7D-4E6D-92C1-84B0ADF58A71}|ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD.csproj|c:\\users\\nimap\\source\\csharpadvance\\projectentitymanagementwithcrud\\projectentitymanagementwithcrud\\models\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23847589-4E7D-4E6D-92C1-84B0ADF58A71}|ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD.csproj|solutionrelative:projectentitymanagementwithcrud\\models\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23847589-4E7D-4E6D-92C1-84B0ADF58A71}|ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD.csproj|c:\\users\\nimap\\source\\csharpadvance\\projectentitymanagementwithcrud\\projectentitymanagementwithcrud\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23847589-4E7D-4E6D-92C1-84B0ADF58A71}|ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD.csproj|solutionrelative:projectentitymanagementwithcrud\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23847589-4E7D-4E6D-92C1-84B0ADF58A71}|ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD.csproj|c:\\users\\nimap\\source\\csharpadvance\\projectentitymanagementwithcrud\\projectentitymanagementwithcrud\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23847589-4E7D-4E6D-92C1-84B0ADF58A71}|ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD.csproj|solutionrelative:projectentitymanagementwithcrud\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23847589-4E7D-4E6D-92C1-84B0ADF58A71}|ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD.csproj|c:\\users\\nimap\\source\\csharpadvance\\projectentitymanagementwithcrud\\projectentitymanagementwithcrud\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,20 +19,20 @@
       "RelativeMoniker": "D:0:0:{23847589-4E7D-4E6D-92C1-84B0ADF58A71}|ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD.csproj|solutionrelative:projectentitymanagementwithcrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nimap\\source\\CSharpAdvance\\ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD\\Migrations\\20250609102836_vinesh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjectEntityManagementWithCRUD\\Migrations\\20250609102836_vinesh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23847589-4E7D-4E6D-92C1-84B0ADF58A71}|ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD.csproj|c:\\users\\nimap\\source\\csharpadvance\\projectentitymanagementwithcrud\\projectentitymanagementwithcrud\\migrations\\dbcontextfilemodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23847589-4E7D-4E6D-92C1-84B0ADF58A71}|ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD.csproj|solutionrelative:projectentitymanagementwithcrud\\migrations\\dbcontextfilemodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nimap\\source\\CSharpAdvance\\ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD\\Migrations\\20250609102807_viesh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjectEntityManagementWithCRUD\\Migrations\\20250609102807_viesh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23847589-4E7D-4E6D-92C1-84B0ADF58A71}|ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD.csproj|c:\\users\\nimap\\source\\csharpadvance\\projectentitymanagementwithcrud\\projectentitymanagementwithcrud\\migrations\\20250609110955_migrationadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23847589-4E7D-4E6D-92C1-84B0ADF58A71}|ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD.csproj|solutionrelative:projectentitymanagementwithcrud\\migrations\\20250609110955_migrationadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23847589-4E7D-4E6D-92C1-84B0ADF58A71}|ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD.csproj|c:\\users\\nimap\\source\\csharpadvance\\projectentitymanagementwithcrud\\projectentitymanagementwithcrud\\models\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23847589-4E7D-4E6D-92C1-84B0ADF58A71}|ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD.csproj|solutionrelative:projectentitymanagementwithcrud\\models\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23847589-4E7D-4E6D-92C1-84B0ADF58A71}|ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD.csproj|c:\\users\\nimap\\source\\csharpadvance\\projectentitymanagementwithcrud\\projectentitymanagementwithcrud\\dbcontext\\dbcontextfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23847589-4E7D-4E6D-92C1-84B0ADF58A71}|ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD.csproj|solutionrelative:projectentitymanagementwithcrud\\dbcontext\\dbcontextfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23847589-4E7D-4E6D-92C1-84B0ADF58A71}|ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD.csproj|c:\\users\\nimap\\source\\csharpadvance\\projectentitymanagementwithcrud\\projectentitymanagementwithcrud\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23847589-4E7D-4E6D-92C1-84B0ADF58A71}|ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD.csproj|solutionrelative:projectentitymanagementwithcrud\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23847589-4E7D-4E6D-92C1-84B0ADF58A71}|ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD.csproj|c:\\users\\nimap\\source\\csharpadvance\\projectentitymanagementwithcrud\\projectentitymanagementwithcrud\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{23847589-4E7D-4E6D-92C1-84B0ADF58A71}|ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD.csproj|c:\\users\\nimap\\source\\csharpadvance\\projectentitymanagementwithcrud\\projectentitymanagementwithcrud\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23847589-4E7D-4E6D-92C1-84B0ADF58A71}|ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD.csproj|solutionrelative:projectentitymanagementwithcrud\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23847589-4E7D-4E6D-92C1-84B0ADF58A71}|ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD.csproj|c:\\users\\nimap\\source\\csharpadvance\\projectentitymanagementwithcrud\\projectentitymanagementwithcrud\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23847589-4E7D-4E6D-92C1-84B0ADF58A71}|ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD.csproj|solutionrelative:projectentitymanagementwithcrud\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23847589-4E7D-4E6D-92C1-84B0ADF58A71}|ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD.csproj|c:\\users\\nimap\\source\\csharpadvance\\projectentitymanagementwithcrud\\projectentitymanagementwithcrud\\models\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,33 +78,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20250609102836_vinesh.cs",
-              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD\\Migrations\\20250609102836_vinesh.cs",
-              "RelativeDocumentMoniker": "ProjectEntityManagementWithCRUD\\Migrations\\20250609102836_vinesh.cs",
-              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD\\Migrations\\20250609102836_vinesh.cs",
-              "RelativeToolTip": "ProjectEntityManagementWithCRUD\\Migrations\\20250609102836_vinesh.cs",
+              "DocumentIndex": 5,
+              "Title": "20250609110955_MigrationAdded.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD\\Migrations\\20250609110955_MigrationAdded.cs",
+              "RelativeDocumentMoniker": "ProjectEntityManagementWithCRUD\\Migrations\\20250609110955_MigrationAdded.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD\\Migrations\\20250609110955_MigrationAdded.cs",
+              "RelativeToolTip": "ProjectEntityManagementWithCRUD\\Migrations\\20250609110955_MigrationAdded.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T10:28:36.916Z",
+              "WhenOpened": "2025-06-09T11:09:55.956Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "20250609102807_viesh.cs",
-              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD\\Migrations\\20250609102807_viesh.cs",
-              "RelativeDocumentMoniker": "ProjectEntityManagementWithCRUD\\Migrations\\20250609102807_viesh.cs",
-              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD\\Migrations\\20250609102807_viesh.cs",
-              "RelativeToolTip": "ProjectEntityManagementWithCRUD\\Migrations\\20250609102807_viesh.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "DBContextFileModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD\\Migrations\\DBContextFileModelSnapshot.cs",
+              "RelativeDocumentMoniker": "ProjectEntityManagementWithCRUD\\Migrations\\DBContextFileModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD\\Migrations\\DBContextFileModelSnapshot.cs",
+              "RelativeToolTip": "ProjectEntityManagementWithCRUD\\Migrations\\DBContextFileModelSnapshot.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T10:28:08.094Z",
+              "WhenOpened": "2025-06-09T11:09:34.888Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD\\Program.cs",
               "RelativeDocumentMoniker": "ProjectEntityManagementWithCRUD\\Program.cs",
@@ -117,46 +117,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "ProjectEntityManagementWithCRUD\\Controllers\\CategoryController.cs",
               "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "ProjectEntityManagementWithCRUD\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAowB8AAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T04:21:01.819Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "ProjectEntityManagementWithCRUD\\Controllers\\OrderController.cs",
               "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD\\Controllers\\OrderController.cs",
               "RelativeToolTip": "ProjectEntityManagementWithCRUD\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAwwEoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T04:20:52.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "ProjectEntityManagementWithCRUD\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD\\Controllers\\ProductController.cs",
               "RelativeToolTip": "ProjectEntityManagementWithCRUD\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAmwCcAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T04:20:36.756Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "ProjectEntityManagementWithCRUD\\Controllers\\UserController.cs",
@@ -164,8 +164,7 @@
               "RelativeToolTip": "ProjectEntityManagementWithCRUD\\Controllers\\UserController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T04:19:56.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T04:19:56.859Z"
             },
             {
               "$type": "Document",
@@ -177,12 +176,11 @@
               "RelativeToolTip": "ProjectEntityManagementWithCRUD\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-09T04:16:39.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T04:16:39.296Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "DBContextFile.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD\\DBcontext\\DBContextFile.cs",
               "RelativeDocumentMoniker": "ProjectEntityManagementWithCRUD\\DBcontext\\DBContextFile.cs",
@@ -190,18 +188,17 @@
               "RelativeToolTip": "ProjectEntityManagementWithCRUD\\DBcontext\\DBContextFile.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAA2wBIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T03:54:20.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T03:54:20.742Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Categories.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD\\Models\\Categories.cs",
               "RelativeDocumentMoniker": "ProjectEntityManagementWithCRUD\\Models\\Categories.cs",
               "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD\\Models\\Categories.cs",
               "RelativeToolTip": "ProjectEntityManagementWithCRUD\\Models\\Categories.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAUwAgAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T03:53:38.203Z",
               "EditorCaption": ""
@@ -216,12 +213,11 @@
               "RelativeToolTip": "ProjectEntityManagementWithCRUD\\Models\\Orders.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T03:53:25.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T03:53:25.656Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Products.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD\\Models\\Products.cs",
               "RelativeDocumentMoniker": "ProjectEntityManagementWithCRUD\\Models\\Products.cs",
@@ -229,8 +225,7 @@
               "RelativeToolTip": "ProjectEntityManagementWithCRUD\\Models\\Products.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T03:53:14.611Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T03:53:14.611Z"
             },
             {
               "$type": "Document",
@@ -242,12 +237,11 @@
               "RelativeToolTip": "ProjectEntityManagementWithCRUD\\Models\\Users.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T03:52:56.987Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T03:52:56.987Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "ProjectEntityManagementWithCRUD\\WeatherForecast.cs",
@@ -255,8 +249,7 @@
               "RelativeToolTip": "ProjectEntityManagementWithCRUD\\WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T08:43:04.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T08:43:04.7Z"
             }
           ]
         },

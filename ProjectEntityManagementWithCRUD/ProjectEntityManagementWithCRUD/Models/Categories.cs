@@ -17,7 +17,7 @@ namespace ProjectEntityManagementWithCRUD.Models
 
         
 
-        public DbSet<Products> Products { get; set; }
+        //public DbSet<Products> Products { get; set; }
 
 
     }

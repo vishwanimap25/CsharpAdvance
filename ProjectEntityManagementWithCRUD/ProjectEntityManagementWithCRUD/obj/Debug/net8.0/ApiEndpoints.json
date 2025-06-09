@@ -239,6 +239,22 @@
   },
   {
     "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.ProductController",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/Product/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.ProductController",
     "Method": "AddProduct",
     "RelativePath": "api/Product/AddProduct",
     "HttpMethod": "POST",
@@ -249,32 +265,6 @@
         "Name": "products",
         "Type": "ProjectEntityManagementWithCRUD.Models.Products",
         "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.String",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.ProductController",
-    "Method": "DeleteProduct",
-    "RelativePath": "api/Product/DeleteProduct",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Guid",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": [
@@ -303,17 +293,7 @@
         "IsRequired": false
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "ProjectEntityManagementWithCRUD.Models.Products",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.ProductController",

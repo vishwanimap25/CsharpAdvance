@@ -35,11 +35,12 @@ namespace ProjectEntityManagementWithCRUD.Controllers
 
         [HttpGet]
         [Route("GetProductByID")]
-        public async Task<Products> GetProductByID(Guid id)
+        public async Task<IActionResult> GetProductByID(Guid id)
         {
             //return userContext.Products.Where(predicate: x => x.ProductCode == id).FirstOrDefault();
-            return productContext.Products.FirstOrDefault(x => x.ProductCode == id);
-
+            var product = await productContext.Products.FirstOrDefaultAsync(x => x.ProductCode == id);
+            if (product == null) return NotFound("Product not found");
+            return Ok(product);
         }
 
         [HttpPut]
@@ -53,23 +54,19 @@ namespace ProjectEntityManagementWithCRUD.Controllers
 
 
 
-        [HttpDelete]
-        [Route("DeleteProduct")]
-        public async Task<string> DeleteProduct(Guid id)
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteProduct(Guid id)
         {
-            Products products = await productContext.Products.FirstOrDefaultAsync(x => x.ProductCode == id);
-            if (products == null)
+            var product = await productContext.Products.FirstOrDefaultAsync(x => x.ProductCode == id);
+            if (product == null)
             {
-                return "Product not found";
-            }
-            else
-            {
-                productContext.Products.Remove(products);
-                await productContext.SaveChangesAsync();
-                return "Product deleted";
+                return NotFound("Product not found");
             }
 
-
+            productContext.Products.Remove(product);
+            await productContext.SaveChangesAsync();
+            return Ok("Product deleted");
         }
+
     }
 }
