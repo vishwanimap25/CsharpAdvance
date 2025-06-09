@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,7 +13,7 @@ namespace ProjectEntityManagementWithCRUD.Models
         [Required]
         public string UserName { get; set; }
 
-        [Column(TypeName = "number(10)")]
+        //[Column(TypeName = "number(10)")]
         [Required]
         public int MobileNumber { get; set; }
 
@@ -20,8 +21,8 @@ namespace ProjectEntityManagementWithCRUD.Models
         public string Address { get; set; }
 
 
-        public DbSet<Orders> Orders { get; set; } 
+        public ICollection<Orders> Orders { get; set; } 
 
-        public DbSet<Categories> Categories { get; set; }
+        public ICollection<Categories> Categories { get; set; }
     }
 }

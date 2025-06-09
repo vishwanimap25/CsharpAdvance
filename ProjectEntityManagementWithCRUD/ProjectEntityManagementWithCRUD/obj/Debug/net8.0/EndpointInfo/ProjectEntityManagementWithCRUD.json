@@ -863,13 +863,6 @@
           "categoryCount": {
             "type": "integer",
             "format": "int32"
-          },
-          "products": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Products"
-            },
-            "nullable": true
           }
         },
         "additionalProperties": false
