@@ -1,0 +1,6 @@
+@ProjectEntityManagementWithCRUD_HostAddress = http://localhost:5135
+
+GET {{ProjectEntityManagementWithCRUD_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -32,6 +32,7 @@ namespace EnitityFrameworkCodeFirstApp.Controllers
         public Users GetUser(int id)
         {
             return userdbcontext.Users.Where(x => x.Id == id).FirstOrDefault();
+
         }
 
         //HttpPost = Create

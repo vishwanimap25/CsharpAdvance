@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Nimap\\source\\CSharpAdvance\\CodeFirstApproachASPcore6\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4A0B186E-76AD-47F9-BB95-AA9C5DC2CB44}|CodeFirstApproachASPcore6\\CodeFirstApproachASPcore6.csproj|c:\\users\\nimap\\source\\csharpadvance\\codefirstapproachaspcore6\\codefirstapproachaspcore6\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A0B186E-76AD-47F9-BB95-AA9C5DC2CB44}|CodeFirstApproachASPcore6\\CodeFirstApproachASPcore6.csproj|solutionrelative:codefirstapproachaspcore6\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A0B186E-76AD-47F9-BB95-AA9C5DC2CB44}|CodeFirstApproachASPcore6\\CodeFirstApproachASPcore6.csproj|c:\\users\\nimap\\source\\csharpadvance\\codefirstapproachaspcore6\\codefirstapproachaspcore6\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A0B186E-76AD-47F9-BB95-AA9C5DC2CB44}|CodeFirstApproachASPcore6\\CodeFirstApproachASPcore6.csproj|solutionrelative:codefirstapproachaspcore6\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A0B186E-76AD-47F9-BB95-AA9C5DC2CB44}|CodeFirstApproachASPcore6\\CodeFirstApproachASPcore6.csproj|c:\\users\\nimap\\source\\csharpadvance\\codefirstapproachaspcore6\\codefirstapproachaspcore6\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A0B186E-76AD-47F9-BB95-AA9C5DC2CB44}|CodeFirstApproachASPcore6\\CodeFirstApproachASPcore6.csproj|solutionrelative:codefirstapproachaspcore6\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4A0B186E-76AD-47F9-BB95-AA9C5DC2CB44}|CodeFirstApproachASPcore6\\CodeFirstApproachASPcore6.csproj|c:\\users\\nimap\\source\\csharpadvance\\codefirstapproachaspcore6\\codefirstapproachaspcore6\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A0B186E-76AD-47F9-BB95-AA9C5DC2CB44}|CodeFirstApproachASPcore6\\CodeFirstApproachASPcore6.csproj|solutionrelative:codefirstapproachaspcore6\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +23,8 @@
       "RelativeMoniker": "D:0:0:{4A0B186E-76AD-47F9-BB95-AA9C5DC2CB44}|CodeFirstApproachASPcore6\\CodeFirstApproachASPcore6.csproj|solutionrelative:codefirstapproachaspcore6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A0B186E-76AD-47F9-BB95-AA9C5DC2CB44}|CodeFirstApproachASPcore6\\CodeFirstApproachASPcore6.csproj|c:\\users\\nimap\\source\\csharpadvance\\codefirstapproachaspcore6\\codefirstapproachaspcore6\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A0B186E-76AD-47F9-BB95-AA9C5DC2CB44}|CodeFirstApproachASPcore6\\CodeFirstApproachASPcore6.csproj|solutionrelative:codefirstapproachaspcore6\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4A0B186E-76AD-47F9-BB95-AA9C5DC2CB44}|CodeFirstApproachASPcore6\\CodeFirstApproachASPcore6.csproj|c:\\users\\nimap\\source\\csharpadvance\\codefirstapproachaspcore6\\codefirstapproachaspcore6\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A0B186E-76AD-47F9-BB95-AA9C5DC2CB44}|CodeFirstApproachASPcore6\\CodeFirstApproachASPcore6.csproj|solutionrelative:codefirstapproachaspcore6\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A0B186E-76AD-47F9-BB95-AA9C5DC2CB44}|CodeFirstApproachASPcore6\\CodeFirstApproachASPcore6.csproj|c:\\users\\nimap\\source\\csharpadvance\\codefirstapproachaspcore6\\codefirstapproachaspcore6\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A0B186E-76AD-47F9-BB95-AA9C5DC2CB44}|CodeFirstApproachASPcore6\\CodeFirstApproachASPcore6.csproj|solutionrelative:codefirstapproachaspcore6\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A0B186E-76AD-47F9-BB95-AA9C5DC2CB44}|CodeFirstApproachASPcore6\\CodeFirstApproachASPcore6.csproj|c:\\users\\nimap\\source\\csharpadvance\\codefirstapproachaspcore6\\codefirstapproachaspcore6\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A0B186E-76AD-47F9-BB95-AA9C5DC2CB44}|CodeFirstApproachASPcore6\\CodeFirstApproachASPcore6.csproj|solutionrelative:codefirstapproachaspcore6\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A0B186E-76AD-47F9-BB95-AA9C5DC2CB44}|CodeFirstApproachASPcore6\\CodeFirstApproachASPcore6.csproj|c:\\users\\nimap\\source\\csharpadvance\\codefirstapproachaspcore6\\codefirstapproachaspcore6\\migrations\\20250602113049_codefirstaddclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\CodeFirstApproachASPcore6\\CodeFirstApproachASPcore6\\Views\\Home\\Details.cshtml",
               "RelativeDocumentMoniker": "CodeFirstApproachASPcore6\\Views\\Home\\Details.cshtml",
@@ -78,11 +78,12 @@
               "RelativeToolTip": "CodeFirstApproachASPcore6\\Views\\Home\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-04T04:22:11.021Z"
+              "WhenOpened": "2025-06-04T04:22:11.021Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\CodeFirstApproachASPcore6\\CodeFirstApproachASPcore6\\Views\\Home\\Create.cshtml",
               "RelativeDocumentMoniker": "CodeFirstApproachASPcore6\\Views\\Home\\Create.cshtml",
@@ -90,7 +91,8 @@
               "RelativeToolTip": "CodeFirstApproachASPcore6\\Views\\Home\\Create.cshtml",
               "ViewState": "AgIAAAIAAAAAAAAAAAAowBgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T06:12:58.473Z"
+              "WhenOpened": "2025-06-03T06:12:58.473Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -102,11 +104,12 @@
               "RelativeToolTip": "CodeFirstApproachASPcore6\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T04:40:52.927Z"
+              "WhenOpened": "2025-06-03T04:40:52.927Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\CodeFirstApproachASPcore6\\CodeFirstApproachASPcore6\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "CodeFirstApproachASPcore6\\Controllers\\HomeController.cs",
@@ -178,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\CodeFirstApproachASPcore6\\CodeFirstApproachASPcore6\\Models\\Student.cs",
               "RelativeDocumentMoniker": "CodeFirstApproachASPcore6\\Models\\Student.cs",
@@ -191,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\CodeFirstApproachASPcore6\\CodeFirstApproachASPcore6\\Program.cs",
               "RelativeDocumentMoniker": "CodeFirstApproachASPcore6\\Program.cs",
