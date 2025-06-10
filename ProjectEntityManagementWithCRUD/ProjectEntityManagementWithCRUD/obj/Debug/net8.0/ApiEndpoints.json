@@ -151,22 +151,6 @@
   },
   {
     "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.OrderController",
-    "Method": "DeleteOrder",
-    "RelativePath": "api/Order/DeleteOrder",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.OrderController",
     "Method": "GetOrder",
     "RelativePath": "api/Order/GetOrder",
     "HttpMethod": "GET",
@@ -210,6 +194,22 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.OrderController",
+    "Method": "SoftDeleteOrder",
+    "RelativePath": "api/Order/SoftDelete/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.OrderController",
@@ -343,12 +343,17 @@
   },
   {
     "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.UserController",
-    "Method": "AddUsers",
-    "RelativePath": "api/User/AddUsers",
-    "HttpMethod": "POST",
+    "Method": "DeleteUser",
+    "RelativePath": "api/User/{iD}",
+    "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
     "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
       {
         "Name": "users",
         "Type": "ProjectEntityManagementWithCRUD.Models.Users",
@@ -369,16 +374,16 @@
   },
   {
     "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.UserController",
-    "Method": "DeleteUser",
-    "RelativePath": "api/User/DeleteUser",
-    "HttpMethod": "DELETE",
+    "Method": "AddUsers",
+    "RelativePath": "api/User/AddUsers",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
+        "Name": "users",
+        "Type": "ProjectEntityManagementWithCRUD.Models.Users",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [

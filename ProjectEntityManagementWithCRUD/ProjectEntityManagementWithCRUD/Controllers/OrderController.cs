@@ -20,6 +20,8 @@ namespace ProjectEntityManagementWithCRUD.Controllers
         [Route("AddOrder")]
         public async  Task<string> AddOrder(Orders orders)
         {
+            orders.IsDeleted = false;
+
             await orderContext.Orders.AddAsync(orders);
             await orderContext.SaveChangesAsync();
             return "Order Added";
@@ -54,21 +56,49 @@ namespace ProjectEntityManagementWithCRUD.Controllers
         }
 
 
-        [HttpDelete]
-        [Route("DeleteOrder")]
-        public async Task<IActionResult> DeleteOrder(int id)
+        [HttpPatch("SoftDelete/{id}")]
+        public async Task<IActionResult> SoftDeleteOrder(int id)
         {
-            Orders orders =  await orderContext.Orders.FirstOrDefaultAsync(x => x.OrderID == id);
-            if (orders != null) 
-            { 
-                orderContext.Orders.Remove(orders);
-                await orderContext.SaveChangesAsync();
-                return Ok();
+            var order = await orderContext.Orders.FirstOrDefaultAsync(x => x.OrderID == id);
+
+            if (order == null)
+            {
+                return NotFound();
+            }
+
+            if (order.IsDeleted)
+            {
+                return BadRequest("Order already deleted");
             }
             else
             {
-                return NotFound("order not found");
+                order.IsDeleted = true;
             }
+
+                
+            await orderContext.SaveChangesAsync();
+
+            return NoContent();
         }
+
+
+
+
+        //[HttpDelete]
+        //[Route("DeleteOrder")]
+        //public async Task<IActionResult> DeleteOrder(int id)
+        //{
+        //    Orders orders =  await orderContext.Orders.FirstOrDefaultAsync(x => x.OrderID == id);
+        //    if (orders != null) 
+        //    { 
+        //        orderContext.Orders.Remove(orders);
+        //        await orderContext.SaveChangesAsync();
+        //        return Ok();
+        //    }
+        //    else
+        //    {
+        //        return NotFound("order not found");
+        //    }
+        //}
     }
 }

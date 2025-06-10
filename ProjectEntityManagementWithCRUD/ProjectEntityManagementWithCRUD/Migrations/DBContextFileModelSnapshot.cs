@@ -41,6 +41,9 @@ namespace ProjectEntityManagementWithCRUD.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<int?>("UsersUserId")
                         .HasColumnType("int");
 
@@ -59,11 +62,11 @@ namespace ProjectEntityManagementWithCRUD.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderID"));
 
-                    b.Property<int>("OrderDateTime")
-                        .HasColumnType("int");
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
-                    b.Property<int>("OrderStatus")
-                        .HasColumnType("int");
+                    b.Property<DateTime>("OrderDateTime")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("ProductName")
                         .IsRequired()
@@ -89,6 +92,9 @@ namespace ProjectEntityManagementWithCRUD.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<int>("Price")
                         .HasColumnType("int");
 
@@ -112,6 +118,9 @@ namespace ProjectEntityManagementWithCRUD.Migrations
                     b.Property<string>("Address")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDelete")
+                        .HasColumnType("bit");
 
                     b.Property<int>("MobileNumber")
                         .HasColumnType("int");

@@ -1,4 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel;
+
 
 namespace ProjectEntityManagementWithCRUD.Models
 {
@@ -11,6 +13,10 @@ namespace ProjectEntityManagementWithCRUD.Models
 
         public string ProductName { get; set; }
 
-        
+
+        [DefaultValue(false)]
+        public bool IsDeleted { get; set; } = false;
+
+
     }
 }

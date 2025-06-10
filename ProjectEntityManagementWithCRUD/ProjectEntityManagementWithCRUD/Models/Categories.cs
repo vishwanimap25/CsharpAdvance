@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using Microsoft.EntityFrameworkCore;
 
 namespace ProjectEntityManagementWithCRUD.Models
@@ -12,10 +13,10 @@ namespace ProjectEntityManagementWithCRUD.Models
 
         public string CategoryDescription { get; set; } = string.Empty;
 
-
         public int CategoryCount { get; set; }
 
-        
+        [DefaultValue(false)]
+        public bool IsDeleted { get; set; } = false;
 
         //public DbSet<Products> Products { get; set; }
 

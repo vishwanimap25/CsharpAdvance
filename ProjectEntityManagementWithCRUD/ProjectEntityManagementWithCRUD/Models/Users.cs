@@ -1,7 +1,10 @@
 ﻿using System.Collections;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
+
+
 
 namespace ProjectEntityManagementWithCRUD.Models
 {
@@ -20,9 +23,12 @@ namespace ProjectEntityManagementWithCRUD.Models
 
         public string Address { get; set; }
 
-
+        [DefaultValue(false)]
+        public bool IsDeleted { get; set; } = false;
         public ICollection<Orders> Orders { get; set; } 
 
         public ICollection<Categories> Categories { get; set; }
+
+        
     }
 }

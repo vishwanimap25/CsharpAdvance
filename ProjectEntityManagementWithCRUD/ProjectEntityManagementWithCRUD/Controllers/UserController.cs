@@ -51,24 +51,40 @@ namespace ProjectEntityManagementWithCRUD.Controllers
         }
 
 
-
-        [HttpDelete]
-        [Route("DeleteUser")]
-        public async Task<string> DeleteUser(int id)
+        [HttpPatch("{iD}")]
+        public async Task<string> DeleteUser(int id, Users users)
         {
-            Users users = await userContext.Users.FirstOrDefaultAsync(x => x.UserId == id);
-            if(users == null)
+            var user = await userContext.Users.FirstOrDefaultAsync(x => x.UserId == id);
+
+            if (user != null)
             {
-                return "user not found";
+                return "no user found";
             }
             else
             {
-                userContext.Users.Remove(users);
-                await userContext.SaveChangesAsync();
-                return "user deleted";
+                users.IsDelete = true;
             }
+            await userContext.SaveChangesAsync();
+            return "user deleted";
+        }
+
+        //[HttpDelete]
+        //[Route("DeleteUser")]
+        //public async Task<string> DeleteUser(int id)
+        //{
+        //    Users users = await userContext.Users.FirstOrDefaultAsync(x => x.UserId == id);
+        //    if(users == null)
+        //    {
+        //        return "user not found";
+        //    }
+        //    else
+        //    {
+        //        userContext.Users.Remove(users);
+        //        await userContext.SaveChangesAsync();
+        //        return "user deleted";
+        //    }
             
            
-        }
+        //}
     }
 }

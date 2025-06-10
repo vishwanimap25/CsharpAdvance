@@ -390,15 +390,16 @@
         }
       }
     },
-    "/api/Order/DeleteOrder": {
-      "delete": {
+    "/api/Order/SoftDelete/{id}": {
+      "patch": {
         "tags": [
           "Order"
         ],
         "parameters": [
           {
             "name": "id",
-            "in": "query",
+            "in": "path",
+            "required": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -764,21 +765,41 @@
         }
       }
     },
-    "/api/User/DeleteUser": {
-      "delete": {
+    "/api/User/{iD}": {
+      "patch": {
         "tags": [
           "User"
         ],
         "parameters": [
           {
             "name": "id",
-            "in": "query",
+            "in": "path",
+            "required": true,
             "schema": {
               "type": "integer",
               "format": "int32"
             }
           }
         ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Users"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Users"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Users"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK",
@@ -860,6 +881,9 @@
             "type": "string",
             "nullable": true
           },
+          "isDeleted": {
+            "type": "boolean"
+          },
           "categoryCount": {
             "type": "integer",
             "format": "int32"
@@ -883,12 +907,11 @@
             "nullable": true
           },
           "orderDateTime": {
-            "type": "integer",
-            "format": "int32"
+            "type": "string",
+            "format": "date-time"
           },
-          "orderStatus": {
-            "type": "integer",
-            "format": "int32"
+          "isDeleted": {
+            "type": "boolean"
           }
         },
         "additionalProperties": false
@@ -907,6 +930,9 @@
           "productName": {
             "type": "string",
             "nullable": true
+          },
+          "isDeleted": {
+            "type": "boolean"
           }
         },
         "additionalProperties": false
@@ -933,6 +959,9 @@
           "address": {
             "type": "string",
             "nullable": true
+          },
+          "isDelete": {
+            "type": "boolean"
           },
           "orders": {
             "type": "array",

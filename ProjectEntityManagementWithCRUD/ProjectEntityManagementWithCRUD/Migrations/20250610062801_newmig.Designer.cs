@@ -12,8 +12,8 @@ using ProjectEntityManagementWithCRUD.DBcontext;
 namespace ProjectEntityManagementWithCRUD.Migrations
 {
     [DbContext(typeof(DBContextFile))]
-    [Migration("20250609125120_init")]
-    partial class init
+    [Migration("20250610062801_newmig")]
+    partial class newmig
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -44,6 +44,9 @@ namespace ProjectEntityManagementWithCRUD.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<int?>("UsersUserId")
                         .HasColumnType("int");
 
@@ -62,11 +65,11 @@ namespace ProjectEntityManagementWithCRUD.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderID"));
 
-                    b.Property<int>("OrderDateTime")
-                        .HasColumnType("int");
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
-                    b.Property<int>("OrderStatus")
-                        .HasColumnType("int");
+                    b.Property<DateTime>("OrderDateTime")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("ProductName")
                         .IsRequired()
@@ -92,6 +95,9 @@ namespace ProjectEntityManagementWithCRUD.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<int>("Price")
                         .HasColumnType("int");
 
@@ -115,6 +121,9 @@ namespace ProjectEntityManagementWithCRUD.Migrations
                     b.Property<string>("Address")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDelete")
+                        .HasColumnType("bit");
 
                     b.Property<int>("MobileNumber")
                         .HasColumnType("int");
