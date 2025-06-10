@@ -11,7 +11,7 @@ namespace ProjectEntityManagementWithCRUD.Models
 
         public string ProductName { get; set; }
 
-        public int OrderDateTime { get; set; }
+        public DateTime OrderDateTime { get; set; }
 
         public int OrderStatus { get; set; } = 0;
     }
