@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjectEntityManagementWithCRUD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4a94b6a377d50616f9daae40af16d5ad789500b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5536b451ad01376864d69389eac9ed57b020dddf")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjectEntityManagementWithCRUD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjectEntityManagementWithCRUD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

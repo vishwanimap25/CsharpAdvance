@@ -12,7 +12,7 @@ namespace ProjectEntityManagementWithCRUD.Models
 
         public string ProductName { get; set; }
 
-        public DateTime OrderDateTime { get; set; }
+        
 
         //[DefaultValue(false)]
         public int IsDeleted { get; set; } = 1;

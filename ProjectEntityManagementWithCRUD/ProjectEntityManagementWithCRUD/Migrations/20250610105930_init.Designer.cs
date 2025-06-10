@@ -12,7 +12,7 @@ using ProjectEntityManagementWithCRUD.DBcontext;
 namespace ProjectEntityManagementWithCRUD.Migrations
 {
     [DbContext(typeof(DBContextFile))]
-    [Migration("20250610090411_init")]
+    [Migration("20250610105930_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -67,9 +67,6 @@ namespace ProjectEntityManagementWithCRUD.Migrations
 
                     b.Property<int>("IsDeleted")
                         .HasColumnType("int");
-
-                    b.Property<DateTime>("OrderDateTime")
-                        .HasColumnType("datetime2");
 
                     b.Property<string>("ProductName")
                         .IsRequired()

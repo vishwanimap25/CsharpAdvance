@@ -28,9 +28,13 @@ namespace ProjectEntityManagementWithCRUD.Controllers
 
         [HttpGet]
         [Route("GetProducts")]
-        public async Task<List<Products>> GetProducts()
+        public async Task<List<Products>> GetProducts(int pageNumber = 1, int pageSize = 10)
         {
-            return await productContext.Products.ToListAsync();
+            var totalCount = await productContext.Products.CountAsync();
+            var totalPages = (int)Math.Ceiling((decimal)totalCount / pageSize);
+
+            return await productContext.Products.Skip((pageNumber - 1) * pageSize).Take(pageSize).ToListAsync();
+            //return await productContext.Products.ToListAsync();
         }
 
         [HttpGet]

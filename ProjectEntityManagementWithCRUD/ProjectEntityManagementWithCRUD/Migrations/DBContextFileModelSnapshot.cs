@@ -65,9 +65,6 @@ namespace ProjectEntityManagementWithCRUD.Migrations
                     b.Property<int>("IsDeleted")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("OrderDateTime")
-                        .HasColumnType("datetime2");
-
                     b.Property<string>("ProductName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

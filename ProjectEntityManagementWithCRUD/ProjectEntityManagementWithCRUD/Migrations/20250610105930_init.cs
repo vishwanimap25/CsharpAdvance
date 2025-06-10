@@ -71,7 +71,6 @@ namespace ProjectEntityManagementWithCRUD.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     orderCategory = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ProductName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    OrderDateTime = table.Column<DateTime>(type: "datetime2", nullable: false),
                     IsDeleted = table.Column<int>(type: "int", nullable: false),
                     UsersUserId = table.Column<int>(type: "int", nullable: true)
                 },

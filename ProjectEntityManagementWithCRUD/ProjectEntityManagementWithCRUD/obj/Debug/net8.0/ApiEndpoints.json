@@ -58,7 +58,18 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.List\u00601[[ProjectEntityManagementWithCRUD.Models.Categories, ProjectEntityManagementWithCRUD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
@@ -156,7 +167,18 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.List\u00601[[ProjectEntityManagementWithCRUD.Models.Orders, ProjectEntityManagementWithCRUD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
@@ -302,7 +324,18 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.List\u00601[[ProjectEntityManagementWithCRUD.Models.Products, ProjectEntityManagementWithCRUD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
@@ -431,7 +464,18 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.List\u00601[[ProjectEntityManagementWithCRUD.Models.Users, ProjectEntityManagementWithCRUD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",

@@ -14,8 +14,9 @@ namespace ProjectEntityManagementWithCRUD.Controllers
         {
             this.orderContext = orderContext;
         }
-
-
+        
+        
+       
         [HttpPost]
         [Route("AddOrder")]
         public async  Task<string> AddOrder(Orders orders)
@@ -28,9 +29,14 @@ namespace ProjectEntityManagementWithCRUD.Controllers
 
         [HttpGet]
         [Route("GetOrder")]
-        public async Task<List<Orders>> GetOrder()
+        public async Task<List<Orders>> GetOrder(int pageNumber = 1, int pageSize = 10)
         {
-            return await orderContext.Orders.ToListAsync();
+            var totalCount = await orderContext.Orders.CountAsync();
+            var totalPages = (int)Math.Ceiling((decimal)totalCount / pageSize);
+            //var orderPerPage = await orderContext.Orders.Skip((page - 1) * pageSize).Take(pageSize).ToListAsync();
+            return await orderContext.Orders.Skip((pageNumber - 1) * pageSize).Take(pageSize).ToListAsync();
+
+            //return await orderContext.Orders.ToListAsync();
         }
 
 
@@ -39,7 +45,6 @@ namespace ProjectEntityManagementWithCRUD.Controllers
         public async Task<Orders> GetOrderById(int id)
         {
             return await orderContext.Orders.FirstOrDefaultAsync(x => x.OrderID == id);    
-            
         }
 
 

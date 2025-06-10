@@ -27,9 +27,13 @@ namespace ProjectEntityManagementWithCRUD.Controllers
 
         [HttpGet]
         [Route("GetCategory")]
-        public async Task<List<Categories>> GetCategory()
+        public async Task<List<Categories>> GetCategory(int pageNumber = 1, int pageSize = 10)
         {
-            return await categoryContext.Categories.ToListAsync();
+            var totalCount = await categoryContext.Categories.CountAsync();
+            var totalPages = (int)Math.Ceiling((decimal)totalCount / pageSize);
+
+            return await categoryContext.Categories.Skip((pageNumber - 1) * pageSize).Take(pageSize).ToListAsync();
+            //return await categoryContext.Categories.ToListAsync();
         }
 
         [HttpGet]

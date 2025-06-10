@@ -27,9 +27,13 @@ namespace ProjectEntityManagementWithCRUD.Controllers
 
         [HttpGet]
         [Route("GetUsers")]
-        public async Task<List<Users>> GetUsers() 
+        public async Task<List<Users>> GetUsers(int pageNumber = 1, int pageSize = 10) 
         { 
-            return await userContext.Users.ToListAsync();
+            var totalCount = await userContext.Users.CountAsync();
+            var totalPages = (int)Math.Ceiling((decimal)totalCount/pageSize);
+
+            return await userContext.Users.Skip((pageNumber - 1)*pageSize).Take(pageSize).ToListAsync();
+            //return await userContext.Users.ToListAsync();
         }
 
         [HttpGet]
