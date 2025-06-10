@@ -15,8 +15,8 @@ namespace ProjectEntityManagementWithCRUD.Models
 
         public int CategoryCount { get; set; }
 
-        [DefaultValue(false)]
-        public bool IsDeleted { get; set; } = false;
+        //[DefaultValue(false)]
+        public int IsDeleted { get; set; } = 1;
 
         //public DbSet<Products> Products { get; set; }
 

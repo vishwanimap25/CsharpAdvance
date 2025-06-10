@@ -14,8 +14,8 @@ namespace ProjectEntityManagementWithCRUD.Models
 
         public DateTime OrderDateTime { get; set; }
 
-        [DefaultValue(false)]
-        public bool IsDeleted { get; set; } = false;
+        //[DefaultValue(false)]
+        public int IsDeleted { get; set; } = 1;
 
     }
 }

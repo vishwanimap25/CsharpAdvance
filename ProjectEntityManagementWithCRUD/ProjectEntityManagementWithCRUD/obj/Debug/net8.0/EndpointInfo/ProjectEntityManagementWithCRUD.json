@@ -765,7 +765,7 @@
         }
       }
     },
-    "/api/User/{iD}": {
+    "/api/User/{id}": {
       "patch": {
         "tags": [
           "User"
@@ -881,10 +881,11 @@
             "type": "string",
             "nullable": true
           },
-          "isDeleted": {
-            "type": "boolean"
-          },
           "categoryCount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "isDeleted": {
             "type": "integer",
             "format": "int32"
           }
@@ -911,7 +912,8 @@
             "format": "date-time"
           },
           "isDeleted": {
-            "type": "boolean"
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -932,16 +934,13 @@
             "nullable": true
           },
           "isDeleted": {
-            "type": "boolean"
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
       },
       "Users": {
-        "required": [
-          "mobileNumber",
-          "userName"
-        ],
         "type": "object",
         "properties": {
           "userId": {
@@ -949,8 +948,8 @@
             "format": "int32"
           },
           "userName": {
-            "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "mobileNumber": {
             "type": "integer",
@@ -960,8 +959,9 @@
             "type": "string",
             "nullable": true
           },
-          "isDelete": {
-            "type": "boolean"
+          "isDeleted": {
+            "type": "integer",
+            "format": "int32"
           },
           "orders": {
             "type": "array",

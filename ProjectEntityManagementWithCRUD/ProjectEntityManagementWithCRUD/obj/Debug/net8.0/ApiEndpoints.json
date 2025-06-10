@@ -344,7 +344,7 @@
   {
     "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.UserController",
     "Method": "DeleteUser",
-    "RelativePath": "api/User/{iD}",
+    "RelativePath": "api/User/{id}",
     "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,

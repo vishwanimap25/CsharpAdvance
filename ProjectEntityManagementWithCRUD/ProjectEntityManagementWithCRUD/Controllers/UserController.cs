@@ -51,7 +51,7 @@ namespace ProjectEntityManagementWithCRUD.Controllers
         }
 
 
-        [HttpPatch("{iD}")]
+        [HttpPatch("{id}")]
         public async Task<string> DeleteUser(int id, Users users)
         {
             var user = await userContext.Users.FirstOrDefaultAsync(x => x.UserId == id);
@@ -62,7 +62,7 @@ namespace ProjectEntityManagementWithCRUD.Controllers
             }
             else
             {
-                users.IsDelete = true;
+                users.IsDeleted = 0;
             }
             await userContext.SaveChangesAsync();
             return "user deleted";

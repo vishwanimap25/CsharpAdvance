@@ -20,8 +20,6 @@ namespace ProjectEntityManagementWithCRUD.Controllers
         [Route("AddOrder")]
         public async  Task<string> AddOrder(Orders orders)
         {
-            orders.IsDeleted = false;
-
             await orderContext.Orders.AddAsync(orders);
             await orderContext.SaveChangesAsync();
             return "Order Added";
@@ -66,13 +64,13 @@ namespace ProjectEntityManagementWithCRUD.Controllers
                 return NotFound();
             }
 
-            if (order.IsDeleted)
+            if (order.IsDeleted == 0)
             {
                 return BadRequest("Order already deleted");
             }
             else
             {
-                order.IsDeleted = true;
+                order.IsDeleted = 0;
             }
 
                 

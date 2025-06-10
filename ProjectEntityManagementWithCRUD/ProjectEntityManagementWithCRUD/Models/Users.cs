@@ -1,8 +1,4 @@
-﻿using System.Collections;
-using System.ComponentModel;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.EntityFrameworkCore;
+﻿using System.ComponentModel.DataAnnotations;
 
 
 
@@ -13,18 +9,20 @@ namespace ProjectEntityManagementWithCRUD.Models
         [Key]
         public int UserId { get; set; } 
 
-        [Required]
         public string UserName { get; set; }
 
         //[Column(TypeName = "number(10)")]
-        [Required]
+      
         public int MobileNumber { get; set; }
 
 
         public string Address { get; set; }
 
-        [DefaultValue(false)]
-        public bool IsDeleted { get; set; } = false;
+      
+        public int IsDeleted { get; set; } = 1;
+
+
+
         public ICollection<Orders> Orders { get; set; } 
 
         public ICollection<Categories> Categories { get; set; }
