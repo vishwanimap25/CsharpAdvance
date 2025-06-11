@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 
 
@@ -7,8 +8,8 @@ namespace ProjectEntityManagementWithCRUD.Models
     public class Users
     {
         [Key]
-        public int UserId { get; set; } 
-
+        public int UserId { get; set; }
+        
         public string UserName { get; set; }
 
         //[Column(TypeName = "number(10)")]
@@ -18,8 +19,8 @@ namespace ProjectEntityManagementWithCRUD.Models
 
         public string Address { get; set; }
 
-      
-        public int IsDeleted { get; set; } = 1;
+        [JsonIgnore]
+        public bool IsDeleted { get; set; } = false;
 
 
 

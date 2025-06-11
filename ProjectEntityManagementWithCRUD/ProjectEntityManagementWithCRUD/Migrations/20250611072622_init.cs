@@ -18,7 +18,7 @@ namespace ProjectEntityManagementWithCRUD.Migrations
                     ProductCode = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     Price = table.Column<int>(type: "int", nullable: false),
                     ProductName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    IsDeleted = table.Column<int>(type: "int", nullable: false)
+                    IsDeleted = table.Column<bool>(type: "bit", nullable: false, defaultValue: false)
                 },
                 constraints: table =>
                 {
@@ -34,7 +34,7 @@ namespace ProjectEntityManagementWithCRUD.Migrations
                     UserName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     MobileNumber = table.Column<int>(type: "int", nullable: false),
                     Address = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    IsDeleted = table.Column<int>(type: "int", nullable: false)
+                    IsDeleted = table.Column<bool>(type: "bit", nullable: false, defaultValue: false)
                 },
                 constraints: table =>
                 {
@@ -50,7 +50,7 @@ namespace ProjectEntityManagementWithCRUD.Migrations
                     CategoryName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CategoryDescription = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CategoryCount = table.Column<int>(type: "int", nullable: false),
-                    IsDeleted = table.Column<int>(type: "int", nullable: false),
+                    IsDeleted = table.Column<bool>(type: "bit", nullable: false, defaultValue: false),
                     UsersUserId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
@@ -71,7 +71,7 @@ namespace ProjectEntityManagementWithCRUD.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     orderCategory = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ProductName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    IsDeleted = table.Column<int>(type: "int", nullable: false),
+                    IsDeleted = table.Column<bool>(type: "bit", nullable: false, defaultValue: false),
                     UsersUserId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>

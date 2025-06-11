@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel;
+using System.Text.Json.Serialization;
 
 
 namespace ProjectEntityManagementWithCRUD.Models
@@ -15,7 +16,8 @@ namespace ProjectEntityManagementWithCRUD.Models
 
 
         //[DefaultValue(false)]
-        public int IsDeleted { get; set; } = 0;
+        [JsonIgnore]
+        public bool IsDeleted { get; set; } = false;
 
 
     }

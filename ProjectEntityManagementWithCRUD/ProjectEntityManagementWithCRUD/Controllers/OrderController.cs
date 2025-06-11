@@ -69,13 +69,13 @@ namespace ProjectEntityManagementWithCRUD.Controllers
                 return NotFound();
             }
 
-            if (order.IsDeleted == 0)
+            if (order.IsDeleted == true)
             {
                 return BadRequest("Order already deleted");
             }
             else
             {
-                order.IsDeleted = 0;
+                order.IsDeleted = true;
             }
 
                 

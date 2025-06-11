@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProjectEntityManagementWithCRUD.DBcontext;
 
@@ -11,9 +12,11 @@ using ProjectEntityManagementWithCRUD.DBcontext;
 namespace ProjectEntityManagementWithCRUD.Migrations
 {
     [DbContext(typeof(DBContextFile))]
-    partial class DBContextFileModelSnapshot : ModelSnapshot
+    [Migration("20250611072622_init")]
+    partial class init
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

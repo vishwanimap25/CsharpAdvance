@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace ProjectEntityManagementWithCRUD.Models
 {
@@ -12,10 +13,11 @@ namespace ProjectEntityManagementWithCRUD.Models
 
         public string ProductName { get; set; }
 
-        
+
 
         //[DefaultValue(false)]
-        public int IsDeleted { get; set; } = 1;
+        [JsonIgnore]
+        public bool IsDeleted { get; set; } = false;
 
     }
 }

@@ -27,32 +27,6 @@
   },
   {
     "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.CategoryController",
-    "Method": "DeleteCategory",
-    "RelativePath": "api/Category/DeleteCategory",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.String",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.CategoryController",
     "Method": "GetCategory",
     "RelativePath": "api/Category/GetCategory",
     "HttpMethod": "GET",
@@ -99,6 +73,32 @@
     "ReturnTypes": [
       {
         "Type": "ProjectEntityManagementWithCRUD.Models.Categories",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.CategoryController",
+    "Method": "softDelete",
+    "RelativePath": "api/Category/softDelete/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -261,22 +261,6 @@
   },
   {
     "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.ProductController",
-    "Method": "DeleteProduct",
-    "RelativePath": "api/Product/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Guid",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.ProductController",
     "Method": "AddProduct",
     "RelativePath": "api/Product/AddProduct",
     "HttpMethod": "POST",
@@ -336,17 +320,23 @@
         "IsRequired": false
       }
     ],
-    "ReturnTypes": [
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.ProductController",
+    "Method": "SoftDeleteProduct",
+    "RelativePath": "api/Product/SoftDelete/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[ProjectEntityManagementWithCRUD.Models.Products, ProjectEntityManagementWithCRUD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
       }
-    ]
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.ProductController",

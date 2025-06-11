@@ -54,24 +54,49 @@ namespace ProjectEntityManagementWithCRUD.Controllers
         }
 
 
-
-        [HttpDelete]
-        [Route("DeleteCategory")]
-        public async Task<string> DeleteCategory(int id)
+        [HttpPatch("softDelete/{id}")]
+        public async Task<string> softDelete(int id)
         {
             Categories categories = await categoryContext.Categories.FirstOrDefaultAsync(x => x.CategoryId == id);
-            if (categories == null)
+
+            if(categories == null)
             {
-                return "Category not found";
+                return "category not found";
             }
             else
             {
-                categoryContext.Categories.Remove(categories);
+                if (categories.IsDeleted)
+                {
+                    return "product is already deleted";
+                }
+                categories.IsDeleted = true;
                 await categoryContext.SaveChangesAsync();
-                return "Category deleted";
+                return "category deleted succesfully";
             }
-
-
         }
+
+
+
+
+
+
+        //[HttpDelete]
+        //[Route("DeleteCategory")]
+        //public async Task<string> DeleteCategory(int id)
+        //{
+        //    Categories categories = await categoryContext.Categories.FirstOrDefaultAsync(x => x.CategoryId == id);
+        //    if (categories == null)
+        //    {
+        //        return "Category not found";
+        //    }
+        //    else
+        //    {
+        //        categoryContext.Categories.Remove(categories);
+        //        await categoryContext.SaveChangesAsync();
+        //        return "Category deleted";
+        //    }
+
+
+        //}
     }
 }

@@ -198,15 +198,16 @@
         }
       }
     },
-    "/api/Category/DeleteCategory": {
-      "delete": {
+    "/api/Category/softDelete/{id}": {
+      "patch": {
         "tags": [
           "Category"
         ],
         "parameters": [
           {
             "name": "id",
-            "in": "query",
+            "in": "path",
+            "required": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -528,33 +529,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Products"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Products"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Products"
-                  }
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -629,8 +604,8 @@
         }
       }
     },
-    "/api/Product/{id}": {
-      "delete": {
+    "/api/Product/SoftDelete/{id}": {
+      "patch": {
         "tags": [
           "Product"
         ],
@@ -964,10 +939,6 @@
           "categoryCount": {
             "type": "integer",
             "format": "int32"
-          },
-          "isDeleted": {
-            "type": "integer",
-            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -986,10 +957,6 @@
           "productName": {
             "type": "string",
             "nullable": true
-          },
-          "isDeleted": {
-            "type": "integer",
-            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -1008,10 +975,6 @@
           "productName": {
             "type": "string",
             "nullable": true
-          },
-          "isDeleted": {
-            "type": "integer",
-            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -1034,10 +997,6 @@
           "address": {
             "type": "string",
             "nullable": true
-          },
-          "isDeleted": {
-            "type": "integer",
-            "format": "int32"
           },
           "orders": {
             "type": "array",

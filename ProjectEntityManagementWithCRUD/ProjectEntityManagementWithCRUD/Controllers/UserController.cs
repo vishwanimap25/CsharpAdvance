@@ -66,7 +66,7 @@ namespace ProjectEntityManagementWithCRUD.Controllers
             }
             else
             {
-                users.IsDeleted = 0;
+                users.IsDeleted = true;
             }
             await userContext.SaveChangesAsync();
             return "user deleted";
