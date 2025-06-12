@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProjectEntityManagementWithCRUD.DBcontext;
-using ProjectEntityManagementWithCRUD.Models;
+using ProjectEntityManagementWithCRUD.Models.Entities;
 
 namespace ProjectEntityManagementWithCRUD.Controllers
 {
@@ -16,17 +16,15 @@ namespace ProjectEntityManagementWithCRUD.Controllers
         }
 
         [HttpPost]
-        [Route("AddCategory")]
-        public async Task<string> AddCategory(Categories categories)
+        public async Task<IActionResult> AddCategory(Categories categories)
         {
             await categoryContext.Categories.AddAsync(categories);
             await categoryContext.SaveChangesAsync();
-            return "Category added";
+            return Ok("category added");
         }
 
 
         [HttpGet]
-        [Route("GetCategory")]
         public async Task<List<Categories>> GetCategory(int pageNumber = 1, int pageSize = 10)
         {
             var totalCount = await categoryContext.Categories.CountAsync();
@@ -36,8 +34,7 @@ namespace ProjectEntityManagementWithCRUD.Controllers
             //return await categoryContext.Categories.ToListAsync();
         }
 
-        [HttpGet]
-        [Route("GetCategoryByID")]
+        [HttpGet("{id}")]
         public async Task<Categories> GetCategoryByID(int id)
         {
             return await categoryContext.Categories.FirstOrDefaultAsync(x => x.CategoryId == id);
@@ -45,7 +42,6 @@ namespace ProjectEntityManagementWithCRUD.Controllers
         }
 
         [HttpPut]
-        [Route("UpdateCategory")]
         public async Task<string> UpdateCategory(Categories categories)
         {
             categoryContext.Categories.Update(categories);

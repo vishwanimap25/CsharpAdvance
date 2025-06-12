@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Text.Json.Serialization;
 
 
-namespace ProjectEntityManagementWithCRUD.Models
+namespace ProjectEntityManagementWithCRUD.Models.Entities
 {
     public class Products
     {

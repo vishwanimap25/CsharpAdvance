@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 
-namespace ProjectEntityManagementWithCRUD.Models
+namespace ProjectEntityManagementWithCRUD.Models.Entities
 {
     public class Orders
     {

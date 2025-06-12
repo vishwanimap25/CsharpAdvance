@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ProjectEntityManagementWithCRUD.Models;
+using ProjectEntityManagementWithCRUD.Models.Entities;
 
 namespace ProjectEntityManagementWithCRUD.DBcontext
 {

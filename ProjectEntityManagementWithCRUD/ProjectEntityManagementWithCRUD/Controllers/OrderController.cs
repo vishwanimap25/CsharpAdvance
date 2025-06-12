@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProjectEntityManagementWithCRUD.DBcontext;
-using ProjectEntityManagementWithCRUD.Models;
+using ProjectEntityManagementWithCRUD.Models.Entities;
 
 namespace ProjectEntityManagementWithCRUD.Controllers
 {
