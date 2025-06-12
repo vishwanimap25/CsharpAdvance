@@ -8,25 +8,25 @@ namespace ProjectEntityManagementWithCRUD.Models.Entities
     public class Users
     {
         [Key]
-        public int UserId { get; set; }
-        
-        public string UserName { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
 
-        //[Column(TypeName = "number(10)")]
       
-        public int MobileNumber { get; set; }
+        public string Email { get; set; }
 
 
-        public string Address { get; set; }
+        public string Password { get; set; }
+
+        public string ConfirmPassword { get; set; }
 
         [JsonIgnore]
         public bool IsDeleted { get; set; } = false;
 
 
 
+        //navigation property
         public ICollection<Orders> Orders { get; set; } 
 
-        public ICollection<Categories> Categories { get; set; }
 
         
     }

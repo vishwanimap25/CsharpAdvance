@@ -8,17 +8,23 @@ namespace ProjectEntityManagementWithCRUD.Models.Entities
     public class Products
     {
         [Key]
-        public Guid ProductCode { get; set; } = Guid.NewGuid();
+        public int Id{ get; set; }
 
-        public int Price { get; set; }
+        public string Name { get; set; }
 
-        public string ProductName { get; set; }
+        public decimal Price { get; set; }
 
 
-        //[DefaultValue(false)]
         [JsonIgnore]
         public bool IsDeleted { get; set; } = false;
 
+
+        //foregin key
+        public int CategoryId { get; set; }
+        public Categories Categories { get; set; } = null;
+
+        //navigation property
+        public ICollection<OrderItem> OrderItems { get; set; }
 
     }
 }
