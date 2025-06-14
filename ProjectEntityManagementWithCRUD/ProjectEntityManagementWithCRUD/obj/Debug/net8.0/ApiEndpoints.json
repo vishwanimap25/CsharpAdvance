@@ -2,7 +2,7 @@
   {
     "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.CategoryController",
     "Method": "AddCategory",
-    "RelativePath": "api/Category/AddCategory",
+    "RelativePath": "api/Category",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -13,22 +13,12 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.String",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.CategoryController",
     "Method": "GetCategory",
-    "RelativePath": "api/Category/GetCategory",
+    "RelativePath": "api/Category",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -58,8 +48,34 @@
   },
   {
     "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.CategoryController",
+    "Method": "UpdateCategory",
+    "RelativePath": "api/Category",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categories",
+        "Type": "ProjectEntityManagementWithCRUD.Models.Categories",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.CategoryController",
     "Method": "GetCategoryByID",
-    "RelativePath": "api/Category/GetCategoryByID",
+    "RelativePath": "api/Category/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -67,7 +83,7 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
@@ -93,32 +109,6 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.String",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.CategoryController",
-    "Method": "UpdateCategory",
-    "RelativePath": "api/Category/UpdateCategory",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "categories",
-        "Type": "ProjectEntityManagementWithCRUD.Models.Categories",
         "IsRequired": true
       }
     ],
@@ -295,7 +285,7 @@
     "Parameters": [
       {
         "Name": "id",
-        "Type": "System.Guid",
+        "Type": "System.Int32",
         "IsRequired": false
       }
     ],
@@ -332,7 +322,7 @@
     "Parameters": [
       {
         "Name": "id",
-        "Type": "System.Guid",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

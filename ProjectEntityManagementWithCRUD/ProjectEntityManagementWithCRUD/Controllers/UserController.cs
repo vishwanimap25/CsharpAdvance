@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProjectEntityManagementWithCRUD.DBcontext;
-using ProjectEntityManagementWithCRUD.Models.Entities;
+using ProjectEntityManagementWithCRUD.Models;
 
 namespace ProjectEntityManagementWithCRUD.Controllers
 {
@@ -41,7 +41,7 @@ namespace ProjectEntityManagementWithCRUD.Controllers
         public async Task<Users> GetUser(int id)
         {
             //return userContext.Users.Where(predicate: x => x.UserId == id).FirstOrDefault();
-            return await userContext.Users.FirstOrDefaultAsync(x => x.UserId == id);
+            return await userContext.Users.FirstOrDefaultAsync(x => x.Id == id);
 
         }
 
@@ -58,7 +58,7 @@ namespace ProjectEntityManagementWithCRUD.Controllers
         [HttpPatch("{id}")]
         public async Task<string> DeleteUser(int id, Users users)
         {
-            var user = await userContext.Users.FirstOrDefaultAsync(x => x.UserId == id);
+            var user = await userContext.Users.FirstOrDefaultAsync(x => x.Id == id);
 
             if (user != null)
             {

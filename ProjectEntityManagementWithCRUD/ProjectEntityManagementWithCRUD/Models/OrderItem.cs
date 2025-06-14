@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ProjectEntityManagementWithCRUD.Models.Entities
+namespace ProjectEntityManagementWithCRUD.Models
 {
     public class OrderItem
     {

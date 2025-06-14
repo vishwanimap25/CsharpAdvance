@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 using Microsoft.EntityFrameworkCore;
 
-namespace ProjectEntityManagementWithCRUD.Models.Entities
+namespace ProjectEntityManagementWithCRUD.Models
 {
     public class Categories
     {

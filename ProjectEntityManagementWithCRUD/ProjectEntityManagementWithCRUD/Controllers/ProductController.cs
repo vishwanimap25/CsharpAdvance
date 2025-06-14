@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProjectEntityManagementWithCRUD.DBcontext;
-using ProjectEntityManagementWithCRUD.Models.Entities;
+using ProjectEntityManagementWithCRUD.Models;
 
 namespace ProjectEntityManagementWithCRUD.Controllers
 {
@@ -16,7 +16,6 @@ namespace ProjectEntityManagementWithCRUD.Controllers
         }
 
         [HttpPost]
-        [Route("AddProduct")]
         public async Task<string> AddProduct(Products products)
         {
             await productContext.Products.AddAsync(products);
@@ -26,7 +25,6 @@ namespace ProjectEntityManagementWithCRUD.Controllers
         }
 
         [HttpGet]
-        [Route("GetProducts")]
         public async Task<ActionResult<object>> GetProducts(int pageNumber = 1, int pageSize = 10)
         {
             var query = productContext.Products
@@ -51,18 +49,16 @@ namespace ProjectEntityManagementWithCRUD.Controllers
         }
 
 
-        [HttpGet]
-        [Route("GetProductByID")]
-        public async Task<IActionResult> GetProductByID(Guid id)
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetProductByID(int id)
         {
             //return userContext.Products.Where(predicate: x => x.ProductCode == id).FirstOrDefault();
-            var product = await productContext.Products.FirstOrDefaultAsync(x => x.ProductCode == id);
+            var product = await productContext.Products.FirstOrDefaultAsync(x => x.Id == id);
             if (product == null) return NotFound("Product not found");
             return Ok(product);
         }
 
         [HttpPut]
-        [Route("UpdateProduct")]
         public async Task<string> UpdateProduct(Products products)
         {
             productContext.Products.Update(products);
@@ -73,9 +69,9 @@ namespace ProjectEntityManagementWithCRUD.Controllers
 
 
         [HttpPatch("SoftDelete/{id}")]
-        public async Task<IActionResult> SoftDeleteProduct(Guid id)
+        public async Task<IActionResult> SoftDeleteProduct(int id)
         {
-            var product = await productContext.Products.FirstOrDefaultAsync(p => p.ProductCode == id);
+            var product = await productContext.Products.FirstOrDefaultAsync(p => p.Id == id);
 
             if (product == null)
             {
