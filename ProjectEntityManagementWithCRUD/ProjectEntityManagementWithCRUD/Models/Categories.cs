@@ -8,9 +8,9 @@ namespace ProjectEntityManagementWithCRUD.Models
     public class Categories
     {
         [Key]
-        public int CategoryId { get; set; }
+        public int Id { get; set; }
 
-        public string CategoryName { get; set; }
+        public string Name { get; set; }
 
         public string CategoryDescription { get; set; } = string.Empty;
 

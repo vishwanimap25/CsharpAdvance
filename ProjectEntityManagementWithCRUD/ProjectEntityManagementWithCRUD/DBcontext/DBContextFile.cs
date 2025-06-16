@@ -13,7 +13,11 @@ namespace ProjectEntityManagementWithCRUD.DBcontext
 
         public DbSet<Orders> Orders { get; set; }
 
-        public DbSet<Categories> Categories { get; set; }  // ✅ Correct placement
+        public DbSet<Categories> Categories { get; set; }
+
+        public DbSet<OrderItem> OrderItems { get; set; }
+
+        public object OrderItem { get; internal set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -34,6 +38,9 @@ namespace ProjectEntityManagementWithCRUD.DBcontext
             modelBuilder.Entity<Categories>()
                 .Property(c => c.IsDeleted)
                 .HasDefaultValue(false);
+
+            modelBuilder.Entity<OrderItem>()
+                .
         }
 
     }

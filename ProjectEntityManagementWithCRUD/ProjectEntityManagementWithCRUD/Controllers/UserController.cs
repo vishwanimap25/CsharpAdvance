@@ -27,46 +27,71 @@ namespace ProjectEntityManagementWithCRUD.Controllers
 
         //(2) Get All users
         [HttpGet]
-        [Route("GetUsers")]
-        public async Task<ActionResult<IEnumerable<UserReadDto>>> GetUsers(int pageNumber = 1, int pageSize = 10) 
+        public async Task<ActionResult<PagedResult<UserReadDto>>> GetUsers(int pageNumber = 1, int pageSize = 10)
         {
-            if (pageNumber <= 0 || pageSize <= 0) 
+            if (pageNumber <= 0 || pageSize <= 0)
             {
-                return BadRequest("Page Number or Page Size must be greater than zero");
+                return BadRequest("Page number and size must be greater than zero");
             }
+
             var totalCount = await userContext.Users.CountAsync();
-            var totalPages = (int)Math.Ceiling((decimal)totalCount/pageSize);
-            
-            if(pageNumber > totalPages && totalPages > 0)
+            var totalPages = (int)Math.Ceiling((decimal)totalCount / pageSize);
+
+            if (pageNumber > totalPages && totalPages > 0)
             {
                 return NotFound("Page not found");
             }
 
             var users = await userContext.Users
-                        .Skip((pageNumber - 1)*pageSize)
-                        .Take(pageSize)
-                        .ToListAsync();
+                 .Where(u => !u.IsDeleted)
+                 .Skip((pageNumber - 1) * pageSize)
+                 .Take(pageSize)
+                 .ToListAsync();
 
-            var userReadDtos = userContext.Users.Select(u => new UserReadDto
+            var userDtos = users.Select(u => new UserReadDto
             {
                 Id = u.Id,
                 Name = u.Name,
                 Email = u.Email
-            });
-            
-            return Ok(userReadDtos);
+            }).ToList();
+
+            var pagedResult = new PagedResult<UserReadDto>
+            {
+                TotalCount = totalCount,
+                TotalPages = totalPages,
+                CurrentPage = pageNumber,
+                PageSize = pageSize,
+                Items = userDtos
+            };
+
+            return Ok(pagedResult);
         }
 
         //(3) Get the users by id.
-        [HttpGet]
-        [Route("GetUserByID")]
-        public async Task<Users> GetUser(int id)
+        [HttpGet("{id}")]
+        public async Task<ActionResult<UserReadDto>> GetUser(int id)
         {
-            //return userContext.Users.Where(predicate: x => x.UserId == id).FirstOrDefault();
-            return await userContext.Users.FirstOrDefaultAsync(x => x.Id == id);
+            var oneUser = await userContext.Users.FirstOrDefaultAsync(x => x.Id == id);
 
+            if (oneUser == null)
+            {
+                return NotFound("User not found");
+            }
+
+            var userDto = new UserReadDto
+            {
+                Id = oneUser.Id,
+                Name = oneUser.Name,
+                Email = oneUser.Email
+                // Map other properties as needed
+            };
+
+            return Ok(userDto);
         }
 
+
+
+        //Update User info.
         [HttpPut("{id}")]
         public async Task<ActionResult> UpdateUser(int id, UserUpdateDto updatedto)
         {
@@ -96,22 +121,23 @@ namespace ProjectEntityManagementWithCRUD.Controllers
         }
 
 
+        //(5) for soft delete
         [HttpPatch("{id}")]
-        public async Task<string> DeleteUser(int id, Users users)
+        public async Task<IActionResult> DeleteUser(int id)
         {
             var user = await userContext.Users.FirstOrDefaultAsync(x => x.Id == id);
 
-            if (user != null)
+            if (user == null)
             {
-                return "no user found";
+                return NotFound("User not found");
             }
-            else
-            {
-                users.IsDeleted = true;
-            }
+
+            user.IsDeleted = true;
             await userContext.SaveChangesAsync();
-            return "user deleted";
+
+            return Ok("User soft deleted");
         }
+
 
         //[HttpDelete]
         //[Route("DeleteUser")]
@@ -128,8 +154,8 @@ namespace ProjectEntityManagementWithCRUD.Controllers
         //        await userContext.SaveChangesAsync();
         //        return "user deleted";
         //    }
-            
-           
+
+
         //}
     }
 }

@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using ProjectEntityManagementWithCRUD.DBcontext;
 using ProjectEntityManagementWithCRUD.Models;
+using ProjectEntityManagementWithCRUD.Models.DTO;
 
 namespace ProjectEntityManagementWithCRUD.Controllers
 {
@@ -10,89 +11,128 @@ namespace ProjectEntityManagementWithCRUD.Controllers
     public class CategoryController : ControllerBase
     {
         private readonly DBContextFile categoryContext;
+
         public CategoryController(DBContextFile categoryContext)
         {
             this.categoryContext = categoryContext;
         }
 
+        // (1) Add a new category
         [HttpPost]
-        public async Task<IActionResult> AddCategory(Categories categories)
+        public async Task<IActionResult> AddCategory(CategoryDTO categoryDto)
         {
-            await categoryContext.Categories.AddAsync(categories);
+            var category = new Categories
+            {
+                Name = categoryDto.Name
+            };
+
+            await categoryContext.Categories.AddAsync(category);
             await categoryContext.SaveChangesAsync();
-            return Ok("category added");
+
+            return Ok("Category added successfully");
         }
 
-
+        // (2) Get paged categories
         [HttpGet]
-        public async Task<List<Categories>> GetCategory(int pageNumber = 1, int pageSize = 10)
+        public async Task<ActionResult<PagedResult<CateGoryReadDto>>> GetCategories(int pageNumber = 1, int pageSize = 10)
         {
-            var totalCount = await categoryContext.Categories.CountAsync();
+            if (pageNumber <= 0 || pageSize <= 0)
+            {
+                return BadRequest("Page number and size must be greater than zero.");
+            }
+
+            var query = categoryContext.Categories.Where(c => !c.IsDeleted);
+
+            var totalCount = await query.CountAsync();
             var totalPages = (int)Math.Ceiling((decimal)totalCount / pageSize);
 
-            return await categoryContext.Categories.Skip((pageNumber - 1) * pageSize).Take(pageSize).ToListAsync();
-            //return await categoryContext.Categories.ToListAsync();
+            if (pageNumber > totalPages && totalPages > 0)
+            {
+                return NotFound("Page not found.");
+            }
+
+            var categories = await query
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
+                .ToListAsync();
+
+            var categoryDtos = categories.Select(c => new CateGoryReadDto
+            {
+                Id = c.Id,
+                Name = c.Name
+            }).ToList();
+
+            var result = new PagedResult<CateGoryReadDto>
+            {
+                TotalCount = totalCount,
+                TotalPages = totalPages,
+                CurrentPage = pageNumber,
+                PageSize = pageSize,
+                Items = categoryDtos
+            };
+
+            return Ok(result);
         }
 
+        // (3) Get a single category by ID
         [HttpGet("{id}")]
-        public async Task<Categories> GetCategoryByID(int id)
+        public async Task<ActionResult<CateGoryReadDto>> GetCategoryById(int id)
         {
-            return await categoryContext.Categories.FirstOrDefaultAsync(x => x.CategoryId == id);
+            var category = await categoryContext.Categories
+                .FirstOrDefaultAsync(c => c.Id == id && !c.IsDeleted);
 
+            if (category == null)
+            {
+                return NotFound("Category not found");
+            }
+
+            var dto = new CateGoryReadDto
+            {
+                Id = category.Id,
+                Name = category.Name
+            };
+
+            return Ok(dto);
         }
 
-        [HttpPut]
-        public async Task<string> UpdateCategory(Categories categories)
+        // (4) Update an existing category
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateCategory(int id, CategoryDTO categoryDto)
         {
-            categoryContext.Categories.Update(categories);
+            var category = await categoryContext.Categories.FirstOrDefaultAsync(c => c.Id == id);
+
+            if (category == null || category.IsDeleted)
+            {
+                return NotFound("Category not found");
+            }
+
+            category.Name = categoryDto.Name;
+
             await categoryContext.SaveChangesAsync();
-            return "Category updated";
+
+            return Ok("Category updated successfully");
         }
 
-
+        // (5) Soft delete a category
         [HttpPatch("softDelete/{id}")]
-        public async Task<string> softDelete(int id)
+        public async Task<IActionResult> SoftDeleteCategory(int id)
         {
-            Categories categories = await categoryContext.Categories.FirstOrDefaultAsync(x => x.CategoryId == id);
+            var category = await categoryContext.Categories.FirstOrDefaultAsync(c => c.Id == id);
 
-            if(categories == null)
+            if (category == null)
             {
-                return "category not found";
+                return NotFound("Category not found");
             }
-            else
+
+            if (category.IsDeleted)
             {
-                if (categories.IsDeleted)
-                {
-                    return "product is already deleted";
-                }
-                categories.IsDeleted = true;
-                await categoryContext.SaveChangesAsync();
-                return "category deleted succesfully";
+                return BadRequest("Category is already deleted");
             }
+
+            category.IsDeleted = true;
+            await categoryContext.SaveChangesAsync();
+
+            return Ok("Category soft deleted successfully");
         }
-
-
-
-
-
-
-        //[HttpDelete]
-        //[Route("DeleteCategory")]
-        //public async Task<string> DeleteCategory(int id)
-        //{
-        //    Categories categories = await categoryContext.Categories.FirstOrDefaultAsync(x => x.CategoryId == id);
-        //    if (categories == null)
-        //    {
-        //        return "Category not found";
-        //    }
-        //    else
-        //    {
-        //        categoryContext.Categories.Remove(categories);
-        //        await categoryContext.SaveChangesAsync();
-        //        return "Category deleted";
-        //    }
-
-
-        //}
     }
 }

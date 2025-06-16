@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using ProjectEntityManagementWithCRUD.DBcontext;
 using ProjectEntityManagementWithCRUD.Models;
+using ProjectEntityManagementWithCRUD.Models.DTO;
 
 namespace ProjectEntityManagementWithCRUD.Controllers
 {
@@ -15,59 +16,96 @@ namespace ProjectEntityManagementWithCRUD.Controllers
             this.productContext = productContext;
         }
  
+
+        //(1) Add Product
         [HttpPost]
-        public async Task<string> AddProduct(Products products)
+        public async Task<ActionResult> AddProduct(Products products)
         {
             await productContext.Products.AddAsync(products);
             await productContext.SaveChangesAsync();
-            return "User added";
+            return Ok("Product added");
 
         }
 
+        //(2) Get all products
         [HttpGet]
-        public async Task<ActionResult<object>> GetProducts(int pageNumber = 1, int pageSize = 10)
+        public async Task<ActionResult<PagedResult<ProductReadDto>>> GetProducts(int pageNumber = 1, int pageSize = 10)
         {
-            var query = productContext.Products
-                .Where(p => !p.IsDeleted); // Exclude soft-deleted products
+            if (pageNumber <= 0 || pageSize <= 0)
+            {
+                return BadRequest("Page number and size must be greater than zero");
+            }
 
-            var totalCount = await query.CountAsync();
+            var totalCount = await productContext.Products
+                .Where(p => !p.IsDeleted)
+                .CountAsync();
             var totalPages = (int)Math.Ceiling((decimal)totalCount / pageSize);
 
-            var products = await query
+            if (pageNumber > totalPages && totalPages > 0)
+            {
+                return NotFound("Page not found");
+            }
+
+            var products = await productContext.Products
+                .Where(p => !p.IsDeleted) 
                 .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize)
                 .ToListAsync();
 
-            return Ok(new
+            var productdto = products.Select(u => new ProductReadDto
+            {
+                Name = u.Name,
+                Price = u.Price,
+                CategoryId = u.CategoryId
+            }).ToList();
+
+            var pagedResult = new PagedResult<ProductReadDto>
             {
                 TotalCount = totalCount,
                 TotalPages = totalPages,
                 CurrentPage = pageNumber,
                 PageSize = pageSize,
-                Products = products
-            });
+                Items = productdto
+            };
+
+            return Ok(pagedResult);
         }
 
-
+        //(3) Get one product by id
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetProductByID(int id)
+        public async Task<ActionResult<ProductReadDto>> GetProductByID(int id)
         {
-            //return userContext.Products.Where(predicate: x => x.ProductCode == id).FirstOrDefault();
-            var product = await productContext.Products.FirstOrDefaultAsync(x => x.Id == id);
+            var product = await productContext.Products
+                     .FirstOrDefaultAsync(x => x.Id == id && !x.IsDeleted);
             if (product == null) return NotFound("Product not found");
-            return Ok(product);
+
+            var productdto = new ProductReadDto();
+            {
+                productdto.Name = product.Name;
+                productdto.Price = product.Price;
+                productdto.CategoryId = product.CategoryId;
+            };
+            return Ok(productdto);
         }
 
-        [HttpPut]
-        public async Task<string> UpdateProduct(Products products)
+        //(4) Update Product
+        [HttpPut("{id}")]
+        public async Task<ActionResult> UpdateProduct(int id, ProductCreateDto products)
         {
-            productContext.Products.Update(products);
+            var existingProduct = await productContext.Products.FindAsync(id);
+            if (existingProduct == null)
+            {
+                return NotFound("User Not Found");
+            }
+            existingProduct.Name = products.Name;
+            existingProduct.Price = products.Price;
+            existingProduct.CategoryId = products.CategoryId;
             await productContext.SaveChangesAsync();
-            return "Product updated";
+            return Ok("Product updated");
         }
 
 
-
+        //(5) Soft Delete Products
         [HttpPatch("SoftDelete/{id}")]
         public async Task<IActionResult> SoftDeleteProduct(int id)
         {

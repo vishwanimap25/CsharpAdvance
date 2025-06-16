@@ -356,6 +356,27 @@
   },
   {
     "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.UserController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/User/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedto",
+        "Type": "ProjectEntityManagementWithCRUD.Models.DTO.UserUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.UserController",
     "Method": "DeleteUser",
     "RelativePath": "api/User/{id}",
     "HttpMethod": "PATCH",
@@ -399,17 +420,7 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.String",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.UserController",
@@ -427,7 +438,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ProjectEntityManagementWithCRUD.Models.Users",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ProjectEntityManagementWithCRUD.Models.DTO.UserReadDto, ProjectEntityManagementWithCRUD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -459,32 +470,6 @@
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.IEnumerable\u00601[[ProjectEntityManagementWithCRUD.Models.DTO.UserReadDto, ProjectEntityManagementWithCRUD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.UserController",
-    "Method": "UpdateUser",
-    "RelativePath": "api/User/UpdateUser",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "users",
-        "Type": "ProjectEntityManagementWithCRUD.Models.Users",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.String",
         "MediaTypes": [
           "text/plain",
           "application/json",
