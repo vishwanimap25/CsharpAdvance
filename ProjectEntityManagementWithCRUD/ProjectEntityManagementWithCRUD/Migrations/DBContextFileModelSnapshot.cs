@@ -24,11 +24,11 @@ namespace ProjectEntityManagementWithCRUD.Migrations
 
             modelBuilder.Entity("ProjectEntityManagementWithCRUD.Models.Categories", b =>
                 {
-                    b.Property<int>("CategoryId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CategoryId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("CategoryCount")
                         .HasColumnType("int");
@@ -37,16 +37,16 @@ namespace ProjectEntityManagementWithCRUD.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("CategoryName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<bool>("IsDeleted")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bit")
                         .HasDefaultValue(false);
 
-                    b.HasKey("CategoryId");
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
 
                     b.ToTable("Categories");
                 });
@@ -80,7 +80,7 @@ namespace ProjectEntityManagementWithCRUD.Migrations
 
                     b.HasIndex("ProductsId");
 
-                    b.ToTable("OrderItem");
+                    b.ToTable("OrderItems");
                 });
 
             modelBuilder.Entity("ProjectEntityManagementWithCRUD.Models.Orders", b =>
@@ -122,7 +122,7 @@ namespace ProjectEntityManagementWithCRUD.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("CategoriesCategoryId")
+                    b.Property<int>("CategoriesId")
                         .HasColumnType("int");
 
                     b.Property<int>("CategoryId")
@@ -142,7 +142,7 @@ namespace ProjectEntityManagementWithCRUD.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CategoriesCategoryId");
+                    b.HasIndex("CategoriesId");
 
                     b.ToTable("Products");
                 });
@@ -211,7 +211,7 @@ namespace ProjectEntityManagementWithCRUD.Migrations
                 {
                     b.HasOne("ProjectEntityManagementWithCRUD.Models.Categories", "Categories")
                         .WithMany()
-                        .HasForeignKey("CategoriesCategoryId")
+                        .HasForeignKey("CategoriesId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

@@ -1,5 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using ProjectEntityManagementWithCRUD.DBcontext;
 using ProjectEntityManagementWithCRUD.Models;
 using ProjectEntityManagementWithCRUD.Models.DTO;
@@ -11,18 +16,47 @@ namespace ProjectEntityManagementWithCRUD.Controllers
     public class UserController : ControllerBase
     {
         private readonly DBContextFile userContext;
-        public UserController(DBContextFile userContext)
+        private readonly IConfiguration configuration;
+        public UserController(DBContextFile userContext, IConfiguration configuration)
         {
             this.userContext = userContext;
+            this.configuration = configuration;
         }
         
         //(1) Add new users
-        [HttpPost("AddUsers")]
-        public async Task<IActionResult> AddUsers(Users users)
+        [HttpPost("Login")]
+        public async Task<IActionResult> AddUsers(UserLoginDto logindto)
         {
-            await userContext.Users.AddAsync(users);
-            await userContext.SaveChangesAsync();
-            return Ok("User Added");
+            var user = await userContext.Users.FirstOrDefaultAsync(x => x.Email == logindto.Email  && x.Password == logindto.Password);
+            if(user != null)
+            {
+                var claims = new[]
+                {
+                    new Claim(JwtRegisteredClaimNames.Sub , configuration["Jwt:Subject"]),
+                    new Claim(JwtRegisteredClaimNames.Jti , Guid.NewGuid().ToString()),
+                    new Claim("UserId", user.Id.ToString()),
+                    new Claim("Email", user.Email.ToString())
+                };
+
+                var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:Key"]));
+                var signIn = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+                var token = new JwtSecurityToken(
+                        configuration["Jwt:Issuer"],
+                        configuration["Jwt:Audience"],
+                        claims,
+                        expires: DateTime.UtcNow.AddMinutes(60),
+                        signingCredentials: signIn
+                    );
+                string tokenValue = new JwtSecurityTokenHandler().WriteToken(token);
+
+                return Ok(new { tokenValue = token, Users = user });
+                //return Ok(user);
+            }
+
+            //await userContext.Users.AddAsync(users);
+            //await userContext.SaveChangesAsync();
+            //return Ok("User Added");
+            return NoContent();
         }
 
         //(2) Get All users
@@ -64,7 +98,7 @@ namespace ProjectEntityManagementWithCRUD.Controllers
                 Items = userDtos
             };
 
-            return Ok(pagedResult);
+            return Ok(userDtos);
         }
 
         //(3) Get the users by id.
@@ -92,6 +126,7 @@ namespace ProjectEntityManagementWithCRUD.Controllers
 
 
         //Update User info.
+        [Authorize]
         [HttpPut("{id}")]
         public async Task<ActionResult> UpdateUser(int id, UserUpdateDto updatedto)
         {

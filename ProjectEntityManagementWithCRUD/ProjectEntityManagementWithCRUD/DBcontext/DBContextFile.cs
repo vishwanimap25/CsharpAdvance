@@ -39,8 +39,8 @@ namespace ProjectEntityManagementWithCRUD.DBcontext
                 .Property(c => c.IsDeleted)
                 .HasDefaultValue(false);
 
-            modelBuilder.Entity<OrderItem>()
-                .
+            
+                
         }
 
     }

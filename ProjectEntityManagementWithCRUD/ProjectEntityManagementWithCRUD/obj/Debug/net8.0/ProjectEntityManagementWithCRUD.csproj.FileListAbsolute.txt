@@ -146,3 +146,4 @@ C:\Users\Nimap\source\CSharpAdvance\ProjectEntityManagementWithCRUD\ProjectEntit
 C:\Users\Nimap\source\CSharpAdvance\ProjectEntityManagementWithCRUD\ProjectEntityManagementWithCRUD\obj\Debug\net8.0\ProjectEntityManagementWithCRUD.pdb
 C:\Users\Nimap\source\CSharpAdvance\ProjectEntityManagementWithCRUD\ProjectEntityManagementWithCRUD\obj\Debug\net8.0\ProjectEntityManagementWithCRUD.genruntimeconfig.cache
 C:\Users\Nimap\source\CSharpAdvance\ProjectEntityManagementWithCRUD\ProjectEntityManagementWithCRUD\obj\Debug\net8.0\ref\ProjectEntityManagementWithCRUD.dll
+C:\Users\Nimap\source\CSharpAdvance\ProjectEntityManagementWithCRUD\ProjectEntityManagementWithCRUD\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

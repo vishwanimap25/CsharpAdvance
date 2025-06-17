@@ -14,16 +14,16 @@ namespace ProjectEntityManagementWithCRUD.Migrations
                 name: "Categories",
                 columns: table => new
                 {
-                    CategoryId = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    CategoryName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CategoryDescription = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CategoryCount = table.Column<int>(type: "int", nullable: false),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false, defaultValue: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Categories", x => x.CategoryId);
+                    table.PrimaryKey("PK_Categories", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -53,16 +53,16 @@ namespace ProjectEntityManagementWithCRUD.Migrations
                     Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false, defaultValue: false),
                     CategoryId = table.Column<int>(type: "int", nullable: false),
-                    CategoriesCategoryId = table.Column<int>(type: "int", nullable: false)
+                    CategoriesId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Products", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Products_Categories_CategoriesCategoryId",
-                        column: x => x.CategoriesCategoryId,
+                        name: "FK_Products_Categories_CategoriesId",
+                        column: x => x.CategoriesId,
                         principalTable: "Categories",
-                        principalColumn: "CategoryId",
+                        principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -88,7 +88,7 @@ namespace ProjectEntityManagementWithCRUD.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "OrderItem",
+                name: "OrderItems",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -101,15 +101,15 @@ namespace ProjectEntityManagementWithCRUD.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_OrderItem", x => x.Id);
+                    table.PrimaryKey("PK_OrderItems", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_OrderItem_Orders_OrdersOrderID",
+                        name: "FK_OrderItems_Orders_OrdersOrderID",
                         column: x => x.OrdersOrderID,
                         principalTable: "Orders",
                         principalColumn: "OrderID",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_OrderItem_Products_ProductsId",
+                        name: "FK_OrderItems_Products_ProductsId",
                         column: x => x.ProductsId,
                         principalTable: "Products",
                         principalColumn: "Id",
@@ -117,13 +117,13 @@ namespace ProjectEntityManagementWithCRUD.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_OrderItem_OrdersOrderID",
-                table: "OrderItem",
+                name: "IX_OrderItems_OrdersOrderID",
+                table: "OrderItems",
                 column: "OrdersOrderID");
 
             migrationBuilder.CreateIndex(
-                name: "IX_OrderItem_ProductsId",
-                table: "OrderItem",
+                name: "IX_OrderItems_ProductsId",
+                table: "OrderItems",
                 column: "ProductsId");
 
             migrationBuilder.CreateIndex(
@@ -132,16 +132,16 @@ namespace ProjectEntityManagementWithCRUD.Migrations
                 column: "UsersId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Products_CategoriesCategoryId",
+                name: "IX_Products_CategoriesId",
                 table: "Products",
-                column: "CategoriesCategoryId");
+                column: "CategoriesId");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "OrderItem");
+                name: "OrderItems");
 
             migrationBuilder.DropTable(
                 name: "Orders");
