@@ -12,7 +12,7 @@ using ProjectEntityManagementWithCRUD.DBcontext;
 namespace ProjectEntityManagementWithCRUD.Migrations
 {
     [DbContext(typeof(DBContextFile))]
-    [Migration("20250617095930_init")]
+    [Migration("20250619061616_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -157,10 +157,6 @@ namespace ProjectEntityManagementWithCRUD.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("ConfirmPassword")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
                         .IsRequired()

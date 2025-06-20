@@ -22,8 +22,24 @@ namespace ProjectEntityManagementWithCRUD.Controllers
             this.userContext = userContext;
             this.configuration = configuration;
         }
-        
-        //(1) Add new users
+
+
+        //Register new users
+        [HttpPost("Registration")]
+        public async Task<ActionResult> RegisterUsers(UserRegisterDto registeruser)
+        {
+            var user = new Users
+            {
+                Name = registeruser.Name,
+                Email = registeruser.Email,
+                Password = registeruser.Password
+            };
+            await userContext.Users.AddAsync(user);
+            await userContext.SaveChangesAsync();
+            return Ok("User Added");
+        }
+
+        //(1) Login new users
         [HttpPost("Login")]
         public async Task<IActionResult> AddUsers(UserLoginDto logindto)
         {
@@ -49,7 +65,7 @@ namespace ProjectEntityManagementWithCRUD.Controllers
                     );
                 string tokenValue = new JwtSecurityTokenHandler().WriteToken(token);
 
-                return Ok(new { tokenValue = token, Users = user });
+                return Ok(new { tokenValue = tokenValue, Users = user });
                 //return Ok(user);
             }
 
@@ -61,7 +77,7 @@ namespace ProjectEntityManagementWithCRUD.Controllers
 
         //(2) Get All users
         [HttpGet]
-        public async Task<ActionResult<PagedResult<UserReadDto>>> GetUsers(int pageNumber = 1, int pageSize = 10)
+        public async Task<ActionResult<IEnumerable<UserReadDto>>> GetUsers(int pageNumber = 1, int pageSize = 10)
         {
             if (pageNumber <= 0 || pageSize <= 0)
             {
@@ -89,19 +105,20 @@ namespace ProjectEntityManagementWithCRUD.Controllers
                 Email = u.Email
             }).ToList();
 
-            var pagedResult = new PagedResult<UserReadDto>
-            {
-                TotalCount = totalCount,
-                TotalPages = totalPages,
-                CurrentPage = pageNumber,
-                PageSize = pageSize,
-                Items = userDtos
-            };
+            //var pagedResult = new PagedResult<UserReadDto>
+            //{
+            //    TotalCount = totalCount,
+            //    TotalPages = totalPages,
+            //    CurrentPage = pageNumber,
+            //    PageSize = pageSize,
+            //    Items = userDtos
+            //};
 
             return Ok(userDtos);
         }
 
         //(3) Get the users by id.
+        [Authorize]
         [HttpGet("{id}")]
         public async Task<ActionResult<UserReadDto>> GetUser(int id)
         {

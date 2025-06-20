@@ -428,7 +428,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ProjectEntityManagementWithCRUD.Models.DTO.PagedResult\u00601[[ProjectEntityManagementWithCRUD.Models.DTO.UserReadDto, ProjectEntityManagementWithCRUD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ProjectEntityManagementWithCRUD.Models.DTO.UserReadDto, ProjectEntityManagementWithCRUD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -512,6 +512,22 @@
       {
         "Name": "logindto",
         "Type": "ProjectEntityManagementWithCRUD.Models.DTO.UserLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.UserController",
+    "Method": "RegisterUsers",
+    "RelativePath": "api/User/Registration",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registeruser",
+        "Type": "ProjectEntityManagementWithCRUD.Models.DTO.UserRegisterDto",
         "IsRequired": true
       }
     ],

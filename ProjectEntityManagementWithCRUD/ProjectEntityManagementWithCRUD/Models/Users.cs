@@ -17,7 +17,6 @@ namespace ProjectEntityManagementWithCRUD.Models
 
         public string Password { get; set; }
 
-        public string ConfirmPassword { get; set; }
 
         [JsonIgnore]
         public bool IsDeleted { get; set; } = false;
