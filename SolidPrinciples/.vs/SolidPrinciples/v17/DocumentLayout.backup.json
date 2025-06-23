@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\Nimap\\source\\CSharpAdvance\\SolidPrinciples\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F9C4FFAC-81E2-4D58-A94D-ECDAA14D9A63}|SolidPrinciples\\SolidPrinciples.csproj|c:\\users\\nimap\\source\\csharpadvance\\solidprinciples\\solidprinciples\\dependencyinversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C4FFAC-81E2-4D58-A94D-ECDAA14D9A63}|SolidPrinciples\\SolidPrinciples.csproj|solutionrelative:solidprinciples\\dependencyinversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C4FFAC-81E2-4D58-A94D-ECDAA14D9A63}|SolidPrinciples\\SolidPrinciples.csproj|c:\\users\\nimap\\source\\csharpadvance\\solidprinciples\\solidprinciples\\interfacesegrigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C4FFAC-81E2-4D58-A94D-ECDAA14D9A63}|SolidPrinciples\\SolidPrinciples.csproj|solutionrelative:solidprinciples\\interfacesegrigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C4FFAC-81E2-4D58-A94D-ECDAA14D9A63}|SolidPrinciples\\SolidPrinciples.csproj|c:\\users\\nimap\\source\\csharpadvance\\solidprinciples\\solidprinciples\\liskovsubstitution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C4FFAC-81E2-4D58-A94D-ECDAA14D9A63}|SolidPrinciples\\SolidPrinciples.csproj|solutionrelative:solidprinciples\\liskovsubstitution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C4FFAC-81E2-4D58-A94D-ECDAA14D9A63}|SolidPrinciples\\SolidPrinciples.csproj|c:\\users\\nimap\\source\\csharpadvance\\solidprinciples\\solidprinciples\\openclosed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C4FFAC-81E2-4D58-A94D-ECDAA14D9A63}|SolidPrinciples\\SolidPrinciples.csproj|solutionrelative:solidprinciples\\openclosed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C4FFAC-81E2-4D58-A94D-ECDAA14D9A63}|SolidPrinciples\\SolidPrinciples.csproj|c:\\users\\nimap\\source\\csharpadvance\\solidprinciples\\solidprinciples\\singlerespondibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C4FFAC-81E2-4D58-A94D-ECDAA14D9A63}|SolidPrinciples\\SolidPrinciples.csproj|solutionrelative:solidprinciples\\singlerespondibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F9C4FFAC-81E2-4D58-A94D-ECDAA14D9A63}|SolidPrinciples\\SolidPrinciples.csproj|c:\\users\\nimap\\source\\csharpadvance\\solidprinciples\\solidprinciples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9C4FFAC-81E2-4D58-A94D-ECDAA14D9A63}|SolidPrinciples\\SolidPrinciples.csproj|solutionrelative:solidprinciples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -27,12 +47,77 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DependencyInversion.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\SolidPrinciples\\SolidPrinciples\\DependencyInversion.cs",
+              "RelativeDocumentMoniker": "SolidPrinciples\\DependencyInversion.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\SolidPrinciples\\SolidPrinciples\\DependencyInversion.cs",
+              "RelativeToolTip": "SolidPrinciples\\DependencyInversion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T09:19:45.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InterfaceSegrigation.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\SolidPrinciples\\SolidPrinciples\\InterfaceSegrigation.cs",
+              "RelativeDocumentMoniker": "SolidPrinciples\\InterfaceSegrigation.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\SolidPrinciples\\SolidPrinciples\\InterfaceSegrigation.cs",
+              "RelativeToolTip": "SolidPrinciples\\InterfaceSegrigation.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAEEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T09:19:35.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LiskovSubstitution.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\SolidPrinciples\\SolidPrinciples\\LiskovSubstitution.cs",
+              "RelativeDocumentMoniker": "SolidPrinciples\\LiskovSubstitution.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\SolidPrinciples\\SolidPrinciples\\LiskovSubstitution.cs",
+              "RelativeToolTip": "SolidPrinciples\\LiskovSubstitution.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAEgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T09:19:24.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OpenClosed.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\SolidPrinciples\\SolidPrinciples\\OpenClosed.cs",
+              "RelativeDocumentMoniker": "SolidPrinciples\\OpenClosed.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\SolidPrinciples\\SolidPrinciples\\OpenClosed.cs",
+              "RelativeToolTip": "SolidPrinciples\\OpenClosed.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEIAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T09:19:10.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SingleRespondibility.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\SolidPrinciples\\SolidPrinciples\\SingleRespondibility.cs",
+              "RelativeDocumentMoniker": "SolidPrinciples\\SingleRespondibility.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\SolidPrinciples\\SolidPrinciples\\SingleRespondibility.cs",
+              "RelativeToolTip": "SolidPrinciples\\SingleRespondibility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T09:19:01.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\SolidPrinciples\\SolidPrinciples\\Program.cs",
               "RelativeDocumentMoniker": "SolidPrinciples\\Program.cs",
               "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\SolidPrinciples\\SolidPrinciples\\Program.cs",
               "RelativeToolTip": "SolidPrinciples\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T09:18:12.024Z",
               "EditorCaption": ""

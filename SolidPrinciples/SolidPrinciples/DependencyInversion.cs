@@ -21,4 +21,34 @@ namespace SolidPrinciples
             //logger.Log("customer added :" + name);
         }
     }
+
+    public interface Ilogger
+    {
+        void Log(string message);
+    }
+    public class FileLogger : Ilogger
+    {
+        public void Log(string message)
+        {
+            //write message to log file
+        }
+    }
+
+
+    //::::::::::::SOLUTION:::::::::::::::::::::
+
+    public class DataAccessLayer2
+    {
+        private Ilogger logger;
+
+        public DataAccessLayer2(Ilogger logger)
+        {
+            this.logger = logger;
+        }
+        public void AddCustomer(string name)
+        {
+            //add customer to the database
+            Console.WriteLine("customer added = " + name);
+        }
+    }
 }
