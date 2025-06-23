@@ -1,0 +1,229 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|c:\\users\\nimap\\source\\csharpadvance\\storemvc\\storemvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|solutionrelative:storemvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|c:\\users\\nimap\\source\\csharpadvance\\storemvc\\storemvc\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|solutionrelative:storemvc\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|c:\\users\\nimap\\source\\csharpadvance\\storemvc\\storemvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|solutionrelative:storemvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|c:\\users\\nimap\\source\\csharpadvance\\storemvc\\storemvc\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|solutionrelative:storemvc\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|c:\\users\\nimap\\source\\csharpadvance\\storemvc\\storemvc\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|solutionrelative:storemvc\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|c:\\users\\nimap\\source\\csharpadvance\\storemvc\\storemvc\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|solutionrelative:storemvc\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|c:\\users\\nimap\\source\\csharpadvance\\storemvc\\storemvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|solutionrelative:storemvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|c:\\users\\nimap\\source\\csharpadvance\\storemvc\\storemvc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|solutionrelative:storemvc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|c:\\users\\nimap\\source\\csharpadvance\\storemvc\\storemvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|solutionrelative:storemvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|c:\\users\\nimap\\source\\csharpadvance\\storemvc\\storemvc\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|solutionrelative:storemvc\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|c:\\users\\nimap\\source\\csharpadvance\\storemvc\\storemvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|solutionrelative:storemvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 334,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "StoreMVC\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "StoreMVC\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T13:05:06.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "StoreMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "StoreMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T12:39:59.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "StoreMVC\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "StoreMVC\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T12:39:56.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "StoreMVC\\Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "StoreMVC\\Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T11:30:26.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Models\\ProductDto.cs",
+              "RelativeDocumentMoniker": "StoreMVC\\Models\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Models\\ProductDto.cs",
+              "RelativeToolTip": "StoreMVC\\Models\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T11:12:40.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "StoreMVC\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "StoreMVC\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T10:09:05.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "StoreMVC\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "StoreMVC\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwBYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T10:08:06.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "StoreMVC\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Models\\Product.cs",
+              "RelativeToolTip": "StoreMVC\\Models\\Product.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABMAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T09:25:10.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Program.cs",
+              "RelativeDocumentMoniker": "StoreMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Program.cs",
+              "RelativeToolTip": "StoreMVC\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T09:17:24.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDBcontext.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Services\\ApplicationDBcontext.cs",
+              "RelativeDocumentMoniker": "StoreMVC\\Services\\ApplicationDBcontext.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Services\\ApplicationDBcontext.cs",
+              "RelativeToolTip": "StoreMVC\\Services\\ApplicationDBcontext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA2wA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T09:15:53.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "StoreMVC\\appsettings.json",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\appsettings.json",
+              "RelativeToolTip": "StoreMVC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-23T09:11:20.064Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
