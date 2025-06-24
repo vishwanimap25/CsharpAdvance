@@ -1,5 +1,6 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\IMAGES\20252406115452647.png
 wwwroot\IMAGES\laptop1.png
 wwwroot\IMAGES\laptop10.png
 wwwroot\IMAGES\laptop11.png
