@@ -20,7 +20,14 @@ namespace ViewData_ViewBag_TempData_Sessions.Controllers
 
         public IActionResult GoToHome()
         {
-            //if we want to pass the data from here to the CsHtml file, use ->
+            ViewData["Message"] = "Welcome to Go Home";
+
+            ViewBag.Message = "Hello from ViewBag"; 
+
+            //HttpContext.Session.SetString("Username", "Vishwa");
+            //HttpContext.Session.SetInt32("UserId", 101);
+
+
             return View();
         }
 

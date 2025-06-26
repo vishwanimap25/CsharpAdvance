@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ViewData_ViewBag_TempData_Sessions.props" />
+</Project>

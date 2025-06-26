@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ViewData_ViewBag_TempData_Sessions/1.0.0": {
+        "runtime": {
+          "ViewData_ViewBag_TempData_Sessions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ViewData_ViewBag_TempData_Sessions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

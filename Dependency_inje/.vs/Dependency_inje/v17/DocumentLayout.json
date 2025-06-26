@@ -1,0 +1,127 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nimap\\source\\CSharpAdvance\\Dependency_inje\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E61254B1-73DF-46A5-B72C-4EDEB7318B6C}|Dependency_inje\\Dependency_inje.csproj|c:\\users\\nimap\\source\\csharpadvance\\dependency_inje\\dependency_inje\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E61254B1-73DF-46A5-B72C-4EDEB7318B6C}|Dependency_inje\\Dependency_inje.csproj|solutionrelative:dependency_inje\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E61254B1-73DF-46A5-B72C-4EDEB7318B6C}|Dependency_inje\\Dependency_inje.csproj|c:\\users\\nimap\\source\\csharpadvance\\dependency_inje\\dependency_inje\\modal\\mockemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E61254B1-73DF-46A5-B72C-4EDEB7318B6C}|Dependency_inje\\Dependency_inje.csproj|solutionrelative:dependency_inje\\modal\\mockemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E61254B1-73DF-46A5-B72C-4EDEB7318B6C}|Dependency_inje\\Dependency_inje.csproj|c:\\users\\nimap\\source\\csharpadvance\\dependency_inje\\dependency_inje\\modal\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E61254B1-73DF-46A5-B72C-4EDEB7318B6C}|Dependency_inje\\Dependency_inje.csproj|solutionrelative:dependency_inje\\modal\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E61254B1-73DF-46A5-B72C-4EDEB7318B6C}|Dependency_inje\\Dependency_inje.csproj|c:\\users\\nimap\\source\\csharpadvance\\dependency_inje\\dependency_inje\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E61254B1-73DF-46A5-B72C-4EDEB7318B6C}|Dependency_inje\\Dependency_inje.csproj|solutionrelative:dependency_inje\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E61254B1-73DF-46A5-B72C-4EDEB7318B6C}|Dependency_inje\\Dependency_inje.csproj|c:\\users\\nimap\\source\\csharpadvance\\dependency_inje\\dependency_inje\\modal\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E61254B1-73DF-46A5-B72C-4EDEB7318B6C}|Dependency_inje\\Dependency_inje.csproj|solutionrelative:dependency_inje\\modal\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 334,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\Dependency_inje\\Dependency_inje\\Program.cs",
+              "RelativeDocumentMoniker": "Dependency_inje\\Program.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\Dependency_inje\\Dependency_inje\\Program.cs",
+              "RelativeToolTip": "Dependency_inje\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T10:38:50.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MockEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\Dependency_inje\\Dependency_inje\\Modal\\MockEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Dependency_inje\\Modal\\MockEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\Dependency_inje\\Dependency_inje\\Modal\\MockEmployeeRepository.cs",
+              "RelativeToolTip": "Dependency_inje\\Modal\\MockEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T10:33:10.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\Dependency_inje\\Dependency_inje\\Modal\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Dependency_inje\\Modal\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\Dependency_inje\\Dependency_inje\\Modal\\IEmployeeRepository.cs",
+              "RelativeToolTip": "Dependency_inje\\Modal\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T10:29:20.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\Dependency_inje\\Dependency_inje\\Modal\\Employee.cs",
+              "RelativeDocumentMoniker": "Dependency_inje\\Modal\\Employee.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\Dependency_inje\\Dependency_inje\\Modal\\Employee.cs",
+              "RelativeToolTip": "Dependency_inje\\Modal\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T10:27:39.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\Dependency_inje\\Dependency_inje\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Dependency_inje\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\Dependency_inje\\Dependency_inje\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Dependency_inje\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T10:27:31.849Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

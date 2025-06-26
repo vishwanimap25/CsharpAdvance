@@ -5,7 +5,14 @@
 }
 
 
-<div class="">
-
+<div class="mx-auto mt-5">
+    <p class="mx-auto">@ViewData["Message"]</p>
+    <p class="mx-auto">@ViewBag.Message</p>
+    @* <div class="mx-auto my-3"> *@
+    @*     @{ *@
+    @*         var username = Context.Session.GetString("Username"); *@
+    @*     } *@
+    @*     <p class="mx-auto">@username</p> *@
+    </div>
 
 </div>

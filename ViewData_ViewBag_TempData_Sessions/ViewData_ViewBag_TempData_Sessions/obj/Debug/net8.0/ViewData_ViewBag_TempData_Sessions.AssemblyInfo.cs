@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ViewData_ViewBag_TempData_Sessions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bf0adb18e24339ec1cb293f91a66fcea30d91f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10edee02d5b9e7b7529257cc4dfb387992944e4f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ViewData_ViewBag_TempData_Sessions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ViewData_ViewBag_TempData_Sessions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
