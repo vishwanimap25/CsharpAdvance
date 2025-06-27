@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace StoreMVC.Models
+namespace StoreMVC.Models.Dto
 {
     public class ProductDto
     {

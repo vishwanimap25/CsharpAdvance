@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RnriaSJGLh/43sggwj1iCrPg0/L1lRXkwx285c8iecM=",
+  "Hash": "NFTFI8yPklNBst+HpfI/+yFvPRkRW/8GDInBFlucjfo=",
   "Source": "StoreMVC",
   "BasePath": "_content/StoreMVC",
   "Mode": "Default",
@@ -101,12 +101,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\wwwroot\\IMAGES\\20252406115452647.png",
+      "Identity": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\wwwroot\\IMAGES\\20252706162142302.png",
       "SourceId": "StoreMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\wwwroot\\",
       "BasePath": "_content/StoreMVC",
-      "RelativePath": "IMAGES/20252406115452647#[.{fingerprint}]?.png",
+      "RelativePath": "IMAGES/20252706162142302#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -119,7 +119,7 @@
       "Integrity": "GmdWDwIotlivJIofSZo6QBDvjDnd0rlIEsEgWgyC8mU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\IMAGES\\20252406115452647.png"
+      "OriginalItemSpec": "wwwroot\\IMAGES\\20252706162142302.png"
     },
     {
       "Identity": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\wwwroot\\IMAGES\\laptop1.png",
@@ -162,27 +162,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\IMAGES\\laptop10.png"
-    },
-    {
-      "Identity": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\wwwroot\\IMAGES\\laptop11.png",
-      "SourceId": "StoreMVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\wwwroot\\",
-      "BasePath": "_content/StoreMVC",
-      "RelativePath": "IMAGES/laptop11#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ja9ikn4gbv",
-      "Integrity": "i4+ZHavSjnEm8y7ba/Gb/1BIRATdwt1bCZsDyyeQYdU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\IMAGES\\laptop11.png"
     },
     {
       "Identity": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\wwwroot\\IMAGES\\laptop12.png",
@@ -1779,8 +1758,8 @@
       ]
     },
     {
-      "Route": "IMAGES/20252406115452647.m48bboxpr6.png",
-      "AssetFile": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\wwwroot\\IMAGES\\20252406115452647.png",
+      "Route": "IMAGES/20252706162142302.m48bboxpr6.png",
+      "AssetFile": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\wwwroot\\IMAGES\\20252706162142302.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1801,7 +1780,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Jun 2025 06:24:52 GMT"
+          "Value": "Fri, 27 Jun 2025 10:51:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1815,7 +1794,7 @@
         },
         {
           "Name": "label",
-          "Value": "IMAGES/20252406115452647.png"
+          "Value": "IMAGES/20252706162142302.png"
         },
         {
           "Name": "integrity",
@@ -1824,8 +1803,8 @@
       ]
     },
     {
-      "Route": "IMAGES/20252406115452647.png",
-      "AssetFile": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\wwwroot\\IMAGES\\20252406115452647.png",
+      "Route": "IMAGES/20252706162142302.png",
+      "AssetFile": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\wwwroot\\IMAGES\\20252706162142302.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1846,7 +1825,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Jun 2025 06:24:52 GMT"
+          "Value": "Fri, 27 Jun 2025 10:51:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2021,88 +2000,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-PQ51Fnlg9NhWIHYsrP3F9vXIEip8DUb917SZiPMlCb8="
-        }
-      ]
-    },
-    {
-      "Route": "IMAGES/laptop11.ja9ikn4gbv.png",
-      "AssetFile": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\wwwroot\\IMAGES\\laptop11.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "292429"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"i4+ZHavSjnEm8y7ba/Gb/1BIRATdwt1bCZsDyyeQYdU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 09:52:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ja9ikn4gbv"
-        },
-        {
-          "Name": "label",
-          "Value": "IMAGES/laptop11.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-i4+ZHavSjnEm8y7ba/Gb/1BIRATdwt1bCZsDyyeQYdU="
-        }
-      ]
-    },
-    {
-      "Route": "IMAGES/laptop11.png",
-      "AssetFile": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\wwwroot\\IMAGES\\laptop11.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "292429"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"i4+ZHavSjnEm8y7ba/Gb/1BIRATdwt1bCZsDyyeQYdU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 09:52:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-i4+ZHavSjnEm8y7ba/Gb/1BIRATdwt1bCZsDyyeQYdU="
         }
       ]
     },

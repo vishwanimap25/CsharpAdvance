@@ -1,0 +1,45 @@
+﻿@model List<User>
+@{
+}
+
+
+<h2 class="text-center my-5">User List</h2>
+
+<div class="row ">
+	
+	<div class=" mx-auto" style=" width:200px">
+		<a class="btn btn-outline-primary" asp-controller="User" asp-action="Adduser">Add New User</a>
+	</div>
+	
+
+</div>
+
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>Id</th>
+			<th>Name</th>
+			<th>Email</th>
+			<th>Plan</th>
+			<th>Created on</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var user in Model)
+		{
+			<tr>
+				<td>@user.UserId</td>
+				<td>@user.Name</td>
+				<td>@user.Email</td>
+				<td>@user.UserPlan</td>
+				<td>@user.CreatedAt.ToString("dd/MM/yyyy")</td>
+				<td style="white-space:nowrap">
+					<a class="btn btn-success btn-sm" asp-controller="User" asp-action="Edit" asp-route-id="@user.UserId">Edit</a>
+					<a class="btn btn-danger btn-sm" asp-controller="User" asp-action="Delete" asp-route-id="@user.UserId">Delete</a>
+				</td>
+			</tr>
+		}
+	</tbody>
+
+</table>
