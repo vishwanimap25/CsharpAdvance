@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using StoreMVC.Services;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +13,14 @@ builder.Services.AddDbContext<ApplicationDBcontext>(options =>
     var newBuild = builder.Configuration.GetConnectionString("dbcs");
     options.UseSqlServer(newBuild);
 });
+
+//Add Authentication
+builder.Services.AddAuthentication("MyCookieAuth").AddCookie("MyCookieAuth", Options =>
+{
+    Options.LoginPath = "/User/Login";   //will be redirected here when autheticated
+    Options.AccessDeniedPath = "/User/AccessDenied"; //optinal
+});
+builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
@@ -28,6 +38,8 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+app.UseAuthorization();
+
 
 app.MapControllerRoute(
     name: "default",

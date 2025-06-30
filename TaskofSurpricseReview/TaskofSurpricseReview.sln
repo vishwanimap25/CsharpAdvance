@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskofSurpricseReview", "TaskofSurpricseReview\TaskofSurpricseReview.csproj", "{EA0A76DE-CD3C-4DC6-A6B9-76FF05D0CAF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA0A76DE-CD3C-4DC6-A6B9-76FF05D0CAF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA0A76DE-CD3C-4DC6-A6B9-76FF05D0CAF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA0A76DE-CD3C-4DC6-A6B9-76FF05D0CAF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA0A76DE-CD3C-4DC6-A6B9-76FF05D0CAF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0081CA5-046E-4A25-A170-49BA61F08E50}
+	EndGlobalSection
+EndGlobal

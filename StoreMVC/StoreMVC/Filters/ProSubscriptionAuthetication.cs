@@ -30,7 +30,7 @@ namespace StoreMVC.Filters
 
 
             //get the user's subscription plan from the database
-            var userPlan = await dbcontext.User.Where(x => x.UserId == userid).Select(u => u.userPlan).FirstOrDefaultAsync();
+            //var userPlan = await dbcontext.User.Where(x => x.UserId == userid).Select(u => u.userPlan).FirstOrDefaultAsync();
         }
     }
 }

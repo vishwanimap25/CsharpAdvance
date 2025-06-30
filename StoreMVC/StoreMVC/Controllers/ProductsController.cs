@@ -1,4 +1,5 @@
 ﻿using System.Drawing.Drawing2D;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using StoreMVC.Models;
 using StoreMVC.Models.Dto;
@@ -6,6 +7,7 @@ using StoreMVC.Services;
 
 namespace StoreMVC.Controllers
 {
+    [Authorize]
     public class ProductsController : Controller
     {
         private readonly ApplicationDBcontext _productContext;

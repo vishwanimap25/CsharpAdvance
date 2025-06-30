@@ -262,3 +262,10 @@ C:\Users\Nimap\source\CSharpAdvance\StoreMVC\StoreMVC\bin\Debug\net8.0\runtimes\
 C:\Users\Nimap\source\CSharpAdvance\StoreMVC\StoreMVC\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\Nimap\source\CSharpAdvance\StoreMVC\StoreMVC\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Nimap\source\CSharpAdvance\StoreMVC\StoreMVC\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\Nimap\source\CSharpAdvance\StoreMVC\StoreMVC\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\Nimap\source\CSharpAdvance\StoreMVC\StoreMVC\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Nimap\source\CSharpAdvance\StoreMVC\StoreMVC\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Nimap\source\CSharpAdvance\StoreMVC\StoreMVC\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+C:\Users\Nimap\source\CSharpAdvance\StoreMVC\StoreMVC\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Nimap\source\CSharpAdvance\StoreMVC\StoreMVC\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+C:\Users\Nimap\source\CSharpAdvance\StoreMVC\StoreMVC\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
