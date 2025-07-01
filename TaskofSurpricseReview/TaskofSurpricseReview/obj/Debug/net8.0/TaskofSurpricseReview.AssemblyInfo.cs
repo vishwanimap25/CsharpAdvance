@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskofSurpricseReview")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf214b84696ca8e1cc0814abec6d26b875cdeb02")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed5e85ef47e33e831bb024292bafc735856f34bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskofSurpricseReview")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskofSurpricseReview")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

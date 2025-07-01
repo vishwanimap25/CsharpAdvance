@@ -1,18 +1,29 @@
 [
   {
-    "ContainingType": "TaskofSurpricseReview.Controllers.CustomerController",
-    "Method": "Index",
-    "RelativePath": "api/Customer",
-    "HttpMethod": "",
+    "ContainingType": "TaskofSurpricseReview.One_Controller.HomeController",
+    "Method": "GetCustomer",
+    "RelativePath": "api/Home/{id}",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "customer",
+        "Type": "TaskofSurpricseReview.Model.Customer",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "TaskofSurpricseReview.Controllers.CustomerController",
-    "Method": "AddCustomers",
-    "RelativePath": "api/Customer/AddCustomers",
+    "ContainingType": "TaskofSurpricseReview.One_Controller.HomeController",
+    "Method": "AddCustomer",
+    "RelativePath": "api/Home/AddCustomer",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
