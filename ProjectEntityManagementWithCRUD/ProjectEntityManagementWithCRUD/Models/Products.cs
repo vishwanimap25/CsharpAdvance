@@ -17,6 +17,10 @@ namespace ProjectEntityManagementWithCRUD.Models
         [JsonIgnore]
         public bool IsDeleted { get; set; } = false;
 
+        // Foreign Key
+        public int UserId { get; set; }
+        // Navigation Property
+        public Users Users { get; set; }
 
         //foregin key
         public int CategoryId { get; set; }

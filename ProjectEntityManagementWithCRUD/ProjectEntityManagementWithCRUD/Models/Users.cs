@@ -8,7 +8,7 @@ namespace ProjectEntityManagementWithCRUD.Models
     public class Users
     {
         [Key]
-        public int Id { get; set; }
+        public int UserId { get; set; }
         public string Name { get; set; }
 
       
@@ -21,6 +21,8 @@ namespace ProjectEntityManagementWithCRUD.Models
         [JsonIgnore]
         public bool IsDeleted { get; set; } = false;
 
+        // Navigation Property
+        public ICollection<Products> Products { get; set; }
 
 
         //navigation property

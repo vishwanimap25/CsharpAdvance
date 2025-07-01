@@ -62,16 +62,8 @@ namespace ProjectEntityManagementWithCRUD.Controllers
                 Name = c.Name
             }).ToList();
 
-            var result = new PagedResult<CateGoryReadDto>
-            {
-                TotalCount = totalCount,
-                TotalPages = totalPages,
-                CurrentPage = pageNumber,
-                PageSize = pageSize,
-                Items = categoryDtos
-            };
 
-            return Ok(result);
+            return Ok(categoryDtos);
         }
 
         // (3) Get a single category by ID

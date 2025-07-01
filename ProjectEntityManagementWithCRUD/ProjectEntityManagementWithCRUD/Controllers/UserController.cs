@@ -50,7 +50,7 @@ namespace ProjectEntityManagementWithCRUD.Controllers
                 {
                     new Claim(JwtRegisteredClaimNames.Sub , configuration["Jwt:Subject"]),
                     new Claim(JwtRegisteredClaimNames.Jti , Guid.NewGuid().ToString()),
-                    new Claim("UserId", user.Id.ToString()),
+                    new Claim("UserId", user.UserId.ToString()),
                     new Claim("Email", user.Email.ToString())
                 };
 
@@ -100,7 +100,7 @@ namespace ProjectEntityManagementWithCRUD.Controllers
 
             var userDtos = users.Select(u => new UserReadDto
             {
-                Id = u.Id,
+                Id = u.UserId,
                 Name = u.Name,
                 Email = u.Email
             }).ToList();
@@ -122,7 +122,7 @@ namespace ProjectEntityManagementWithCRUD.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<UserReadDto>> GetUser(int id)
         {
-            var oneUser = await userContext.Users.FirstOrDefaultAsync(x => x.Id == id);
+            var oneUser = await userContext.Users.FirstOrDefaultAsync(x => x.UserId == id);
 
             if (oneUser == null)
             {
@@ -131,7 +131,7 @@ namespace ProjectEntityManagementWithCRUD.Controllers
 
             var userDto = new UserReadDto
             {
-                Id = oneUser.Id,
+                Id = oneUser.UserId,
                 Name = oneUser.Name,
                 Email = oneUser.Email
                 // Map other properties as needed
@@ -177,7 +177,7 @@ namespace ProjectEntityManagementWithCRUD.Controllers
         [HttpPatch("{id}")]
         public async Task<IActionResult> DeleteUser(int id)
         {
-            var user = await userContext.Users.FirstOrDefaultAsync(x => x.Id == id);
+            var user = await userContext.Users.FirstOrDefaultAsync(x => x.UserId == id);
 
             if (user == null)
             {

@@ -38,9 +38,7 @@ namespace ProjectEntityManagementWithCRUD.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsDeleted")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bit")
-                        .HasDefaultValue(false);
+                        .HasColumnType("bit");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -92,15 +90,13 @@ namespace ProjectEntityManagementWithCRUD.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderID"));
 
                     b.Property<bool>("IsDeleted")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bit")
-                        .HasDefaultValue(false);
+                        .HasColumnType("bit");
 
                     b.Property<string>("ProductName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("UsersId")
+                    b.Property<int?>("UsersUserId")
                         .HasColumnType("int");
 
                     b.Property<string>("orderCategory")
@@ -109,7 +105,7 @@ namespace ProjectEntityManagementWithCRUD.Migrations
 
                     b.HasKey("OrderID");
 
-                    b.HasIndex("UsersId");
+                    b.HasIndex("UsersUserId");
 
                     b.ToTable("Orders");
                 });
@@ -129,9 +125,7 @@ namespace ProjectEntityManagementWithCRUD.Migrations
                         .HasColumnType("int");
 
                     b.Property<bool>("IsDeleted")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bit")
-                        .HasDefaultValue(false);
+                        .HasColumnType("bit");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -140,29 +134,32 @@ namespace ProjectEntityManagementWithCRUD.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("CategoriesId");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Products");
                 });
 
             modelBuilder.Entity("ProjectEntityManagementWithCRUD.Models.Users", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("UserId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"));
 
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsDeleted")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bit")
-                        .HasDefaultValue(false);
+                        .HasColumnType("bit");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -172,7 +169,7 @@ namespace ProjectEntityManagementWithCRUD.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.HasKey("UserId");
 
                     b.ToTable("Users");
                 });
@@ -200,7 +197,7 @@ namespace ProjectEntityManagementWithCRUD.Migrations
                 {
                     b.HasOne("ProjectEntityManagementWithCRUD.Models.Users", null)
                         .WithMany("Orders")
-                        .HasForeignKey("UsersId");
+                        .HasForeignKey("UsersUserId");
                 });
 
             modelBuilder.Entity("ProjectEntityManagementWithCRUD.Models.Products", b =>
@@ -211,7 +208,15 @@ namespace ProjectEntityManagementWithCRUD.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("ProjectEntityManagementWithCRUD.Models.Users", "Users")
+                        .WithMany("Products")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Categories");
+
+                    b.Navigation("Users");
                 });
 
             modelBuilder.Entity("ProjectEntityManagementWithCRUD.Models.Products", b =>
@@ -222,6 +227,8 @@ namespace ProjectEntityManagementWithCRUD.Migrations
             modelBuilder.Entity("ProjectEntityManagementWithCRUD.Models.Users", b =>
                 {
                     b.Navigation("Orders");
+
+                    b.Navigation("Products");
                 });
 #pragma warning restore 612, 618
         }

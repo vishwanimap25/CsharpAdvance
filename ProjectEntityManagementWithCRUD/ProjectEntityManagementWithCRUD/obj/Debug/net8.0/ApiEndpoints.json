@@ -306,8 +306,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "products",
-        "Type": "ProjectEntityManagementWithCRUD.Models.Products",
+        "Name": "dto",
+        "Type": "ProjectEntityManagementWithCRUD.Models.DTO.ProductCreateDto",
         "IsRequired": true
       }
     ],
@@ -346,32 +346,6 @@
   },
   {
     "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.ProductController",
-    "Method": "GetProductByID",
-    "RelativePath": "api/Product/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "ProjectEntityManagementWithCRUD.Models.DTO.ProductReadDto",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.ProductController",
     "Method": "UpdateProduct",
     "RelativePath": "api/Product/{id}",
     "HttpMethod": "PUT",
@@ -390,6 +364,32 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.ProductController",
+    "Method": "GetProductByID",
+    "RelativePath": "api/Product/{UserId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ProjectEntityManagementWithCRUD.Models.DTO.ProductReadDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "ProjectEntityManagementWithCRUD.Controllers.ProductController",

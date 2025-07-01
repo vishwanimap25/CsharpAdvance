@@ -19,28 +19,14 @@ namespace ProjectEntityManagementWithCRUD.DBcontext
 
         public object OrderItem { get; internal set; }
 
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-
-            modelBuilder.Entity<Orders>()
-                .Property(o => o.IsDeleted)
-                .HasDefaultValue(false);
-
-            modelBuilder.Entity<Products>()
-                .Property(p => p.IsDeleted)
-                .HasDefaultValue(false);
-
             modelBuilder.Entity<Users>()
-                .Property(u => u.IsDeleted)
-                .HasDefaultValue(false);
-
-            modelBuilder.Entity<Categories>()
-                .Property(c => c.IsDeleted)
-                .HasDefaultValue(false);
-
-            
-                
+             .HasMany(u => u.Products)
+             .WithOne(p => p.Users)
+             .HasForeignKey(p => p.UserId);
         }
 
     }

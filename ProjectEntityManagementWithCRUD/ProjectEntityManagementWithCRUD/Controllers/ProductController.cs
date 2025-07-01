@@ -19,9 +19,21 @@ namespace ProjectEntityManagementWithCRUD.Controllers
 
         //(1) Add Product
         [HttpPost]
-        public async Task<ActionResult> AddProduct(Products products)
+        public async Task<IActionResult> AddProduct(ProductCreateDto dto)
         {
-            await productContext.Products.AddAsync(products);
+            var user = await productContext.Products.FindAsync(dto.UserId);
+
+            if(user == null) { return NotFound("User not found"); }
+
+            var product = new Products
+            {
+                Name = dto.Name,
+                Price = dto.Price,
+                UserId = dto.UserId,
+                CategoryId = dto.CategoryId,
+            };
+
+            await productContext.Products.AddAsync(product);
             await productContext.SaveChangesAsync();
             return Ok("Product added");
 
@@ -59,33 +71,23 @@ namespace ProjectEntityManagementWithCRUD.Controllers
                 CategoryId = u.CategoryId
             }).ToList();
 
-            var pagedResult = new PagedResult<ProductReadDto>
-            {
-                TotalCount = totalCount,
-                TotalPages = totalPages,
-                CurrentPage = pageNumber,
-                PageSize = pageSize,
-                Items = productdto
-            };
-
-            return Ok(pagedResult);
+            return Ok(productdto);
         }
 
         //(3) Get one product by id
-        [HttpGet("{id}")]
-        public async Task<ActionResult<ProductReadDto>> GetProductByID(int id)
+        [HttpGet("{UserId}")]
+        public async Task<ActionResult<ProductReadDto>> GetProductByID(int UserId)
         {
             var product = await productContext.Products
-                     .FirstOrDefaultAsync(x => x.Id == id && !x.IsDeleted);
-            if (product == null) return NotFound("Product not found");
+                .Where(p => p.UserId == UserId)
+                .ToListAsync();
 
-            var productdto = new ProductReadDto();
+            if(product == null || product.Count == 0)
             {
-                productdto.Name = product.Name;
-                productdto.Price = product.Price;
-                productdto.CategoryId = product.CategoryId;
-            };
-            return Ok(productdto);
+                return NotFound("No product found for this user");
+            }
+
+            return Ok(product);
         }
 
         //(4) Update Product
