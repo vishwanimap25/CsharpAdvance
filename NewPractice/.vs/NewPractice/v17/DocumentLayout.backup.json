@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Nimap\\source\\CSharpAdvance\\NewPractice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA59AB82-1690-43A6-A213-CE0A62D7964A}|NewPractice\\NewPractice.csproj|c:\\users\\nimap\\source\\csharpadvance\\newpractice\\newpractice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FA59AB82-1690-43A6-A213-CE0A62D7964A}|NewPractice\\NewPractice.csproj|solutionrelative:newpractice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{FA59AB82-1690-43A6-A213-CE0A62D7964A}|NewPractice\\NewPractice.csproj|c:\\users\\nimap\\source\\csharpadvance\\newpractice\\newpractice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA59AB82-1690-43A6-A213-CE0A62D7964A}|NewPractice\\NewPractice.csproj|solutionrelative:newpractice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA59AB82-1690-43A6-A213-CE0A62D7964A}|NewPractice\\NewPractice.csproj|c:\\users\\nimap\\source\\csharpadvance\\newpractice\\newpractice\\services\\homeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA59AB82-1690-43A6-A213-CE0A62D7964A}|NewPractice\\NewPractice.csproj|solutionrelative:newpractice\\services\\homeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA59AB82-1690-43A6-A213-CE0A62D7964A}|NewPractice\\NewPractice.csproj|c:\\users\\nimap\\source\\csharpadvance\\newpractice\\newpractice\\services\\icollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA59AB82-1690-43A6-A213-CE0A62D7964A}|NewPractice\\NewPractice.csproj|solutionrelative:newpractice\\services\\icollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA59AB82-1690-43A6-A213-CE0A62D7964A}|NewPractice\\NewPractice.csproj|c:\\users\\nimap\\source\\csharpadvance\\newpractice\\newpractice\\db context\\applicationdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA59AB82-1690-43A6-A213-CE0A62D7964A}|NewPractice\\NewPractice.csproj|solutionrelative:newpractice\\db context\\applicationdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA59AB82-1690-43A6-A213-CE0A62D7964A}|NewPractice\\NewPractice.csproj|c:\\users\\nimap\\source\\csharpadvance\\newpractice\\newpractice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FA59AB82-1690-43A6-A213-CE0A62D7964A}|NewPractice\\NewPractice.csproj|solutionrelative:newpractice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA59AB82-1690-43A6-A213-CE0A62D7964A}|NewPractice\\NewPractice.csproj|c:\\users\\nimap\\source\\csharpadvance\\newpractice\\newpractice\\model\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,47 +54,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 259,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20250701100938_init.cs",
-              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\NewPractice\\NewPractice\\Migrations\\20250701100938_init.cs",
-              "RelativeDocumentMoniker": "NewPractice\\Migrations\\20250701100938_init.cs",
-              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\NewPractice\\NewPractice\\Migrations\\20250701100938_init.cs",
-              "RelativeToolTip": "NewPractice\\Migrations\\20250701100938_init.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T10:09:39.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationDb.cs",
-              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\NewPractice\\NewPractice\\Db context\\ApplicationDb.cs",
-              "RelativeDocumentMoniker": "NewPractice\\Db context\\ApplicationDb.cs",
-              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\NewPractice\\NewPractice\\Db context\\ApplicationDb.cs",
-              "RelativeToolTip": "NewPractice\\Db context\\ApplicationDb.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBIAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T10:00:34.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\NewPractice\\NewPractice\\Program.cs",
-              "RelativeDocumentMoniker": "NewPractice\\Program.cs",
-              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\NewPractice\\NewPractice\\Program.cs",
-              "RelativeToolTip": "NewPractice\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T09:59:08.972Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -93,7 +66,82 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeServices.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\NewPractice\\NewPractice\\Services\\HomeServices.cs",
+              "RelativeDocumentMoniker": "NewPractice\\Services\\HomeServices.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\NewPractice\\NewPractice\\Services\\HomeServices.cs",
+              "RelativeToolTip": "NewPractice\\Services\\HomeServices.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T06:40:34.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICollection.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\NewPractice\\NewPractice\\Services\\ICollection.cs",
+              "RelativeDocumentMoniker": "NewPractice\\Services\\ICollection.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\NewPractice\\NewPractice\\Services\\ICollection.cs",
+              "RelativeToolTip": "NewPractice\\Services\\ICollection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T06:40:22.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\NewPractice\\NewPractice\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "NewPractice\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\NewPractice\\NewPractice\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "NewPractice\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T10:12:04.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250701100938_init.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\NewPractice\\NewPractice\\Migrations\\20250701100938_init.cs",
+              "RelativeDocumentMoniker": "NewPractice\\Migrations\\20250701100938_init.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\NewPractice\\NewPractice\\Migrations\\20250701100938_init.cs",
+              "RelativeToolTip": "NewPractice\\Migrations\\20250701100938_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T10:09:39.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDb.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\NewPractice\\NewPractice\\Db context\\ApplicationDb.cs",
+              "RelativeDocumentMoniker": "NewPractice\\Db context\\ApplicationDb.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\NewPractice\\NewPractice\\Db context\\ApplicationDb.cs",
+              "RelativeToolTip": "NewPractice\\Db context\\ApplicationDb.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T10:00:34.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\NewPractice\\NewPractice\\Program.cs",
+              "RelativeDocumentMoniker": "NewPractice\\Program.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\NewPractice\\NewPractice\\Program.cs",
+              "RelativeToolTip": "NewPractice\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T09:59:08.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\NewPractice\\NewPractice\\appsettings.json",
               "RelativeDocumentMoniker": "NewPractice\\appsettings.json",
@@ -101,12 +149,11 @@
               "RelativeToolTip": "NewPractice\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-01T09:57:51.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T09:57:51.356Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Orders.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\NewPractice\\NewPractice\\Model\\Orders.cs",
               "RelativeDocumentMoniker": "NewPractice\\Model\\Orders.cs",
@@ -114,12 +161,11 @@
               "RelativeToolTip": "NewPractice\\Model\\Orders.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T09:56:45.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T09:56:45.998Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\NewPractice\\NewPractice\\Model\\Category.cs",
               "RelativeDocumentMoniker": "NewPractice\\Model\\Category.cs",
@@ -127,12 +173,11 @@
               "RelativeToolTip": "NewPractice\\Model\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T09:56:41.625Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T09:56:41.625Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\NewPractice\\NewPractice\\Model\\Product.cs",
               "RelativeDocumentMoniker": "NewPractice\\Model\\Product.cs",
@@ -140,12 +185,11 @@
               "RelativeToolTip": "NewPractice\\Model\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T09:56:36.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T09:56:36.54Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\NewPractice\\NewPractice\\Model\\User.cs",
               "RelativeDocumentMoniker": "NewPractice\\Model\\User.cs",
@@ -153,8 +197,7 @@
               "RelativeToolTip": "NewPractice\\Model\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T09:56:30.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T09:56:30.85Z"
             }
           ]
         },

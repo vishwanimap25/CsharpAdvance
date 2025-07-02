@@ -15,12 +15,20 @@ builder.Services.AddDbContext<ApplicationDBcontext>(options =>
 });
 
 //Add Authentication
-builder.Services.AddAuthentication("MyCookieAuth").AddCookie("MyCookieAuth", Options =>
+builder.Services.AddAuthentication("awaleCookie").AddCookie("awaleCookie", Options =>
 {
     Options.LoginPath = "/User/Login";   //will be redirected here when autheticated
     Options.AccessDeniedPath = "/User/AccessDenied"; //optinal
 });
-builder.Services.AddAuthorization();
+
+//plan based authtication 
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("Pro", policy =>
+    {
+        policy.RequireClaim("UserPlan", "Pro");
+    });
+});
 
 var app = builder.Build();
 
@@ -37,7 +45,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthorization();
+app.UseAuthentication();
 app.UseAuthorization();
 
 

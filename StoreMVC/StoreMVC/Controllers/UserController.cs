@@ -21,16 +21,18 @@ namespace StoreMVC.Controllers
             _userContext = userContext;
             this.environment = environment;
         }
-
+        [Authorize(Policy = "Pro")]
         public IActionResult Index()
         {
             var users = _userContext.User.OrderBy(x => x.UserId).ToList();
             return View(users);
         }
+        [Authorize]
         public IActionResult Adduser()
         {
             return View();
         }
+        [Authorize]
         [HttpPost]
         public IActionResult Adduser(UserCreateDto usercreatedto)
         {
@@ -56,7 +58,7 @@ namespace StoreMVC.Controllers
 
         }
 
-
+        [Authorize]
         public IActionResult Delete(int id)
         {
             var user = _userContext.User.Find(id);
@@ -93,17 +95,18 @@ namespace StoreMVC.Controllers
                 new Claim(ClaimTypes.Name, user.Name),
                 new Claim(ClaimTypes.Email, user.Email),
                 //new Claim(ClaimTypes.UserPlan, user.UserPlan),
-                new Claim("UserId", user.UserId.ToString())
+                new Claim("UserId", user.UserId.ToString()), 
+                new Claim("UserPlan", user.UserPlan),
             };     
 
-            var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+            var identity = new ClaimsIdentity(claims, "awaleCookie");
             var principal = new ClaimsPrincipal(identity);
 
-            await  HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+            await  HttpContext.SignInAsync("awaleCookie", principal);
 
             return RedirectToAction("Index", "Home");
         }
-        //for logout
+        [Authorize]
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync();
@@ -112,7 +115,10 @@ namespace StoreMVC.Controllers
         //Access Denied
         public IActionResult AccessDenied()
         {
-            return Content("Access Denied");
+            //ViewBag.Message = user.Name.ToString();
+            var Name = User.FindFirst(ClaimTypes.Name)?.Value;
+            ViewBag.Message = Name;
+            return View();
         }
 
 

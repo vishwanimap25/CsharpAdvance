@@ -1,102 +1,28 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Collections;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NewPractice.Db_context;
 using NewPractice.Model;
 
 namespace NewPractice.Controllers
 {
-
-    [Route("api[controller]")]
     [ApiController]
+    [Route("api[controller]")]
     public class HomeController : Controller
     {
-        private readonly ApplicationDb context;
+        private readonly ICollection coll;
 
-        public HomeController(ApplicationDb context)
+        public HomeController(ICollection coll)
         {
-            this.context = context;
-        }
-
-        public IActionResult Index()
-        {
-            return View();
+            this.coll = coll;
         }
 
 
-        [HttpPost("AddUser")]
-        public async Task<IActionResult> AddUser(int id, User user)
+
+        [HttpPost("AddUpdateUser")]
+        public async Task<IActionResult> AddUpdateUSer()
         {
-            var newadd = await context.User.FindAsync(id);
-            if (newadd == null)
-            {
-                newadd.Name= user.Name;
-                await context.User.AddAsync(newadd);
-            }
-            else
-            {
-                context.User.Update(user);
-                await context.SaveChangesAsync();   
-            }
-                return Ok();
-
-        }
-
-
-        [HttpPost("AddProduct")]
-        public async Task<IActionResult> AddProduct(int id, Product product)
-        {
-            var newadd = await context.Product.FindAsync(id);
-            if (newadd == null)
-            {
-                newadd.Name = product.Name;
-                await context.User.AddAsync(newadd);
-            }
-            else
-            {
-                context.User.Update(product);
-                await context.SaveChangesAsync();
-            }
-            await context.SaveChangesAsync();
-            return Ok();
-
-        }
-
-
-        [HttpPost("AddCategory")]
-        public async Task<IActionResult> AddUser(int id, User user)
-        {
-            var newadd = await context.User.FindAsync(id);
-            if (newadd == null)
-            {
-                newadd.Name = user.Name;
-                await context.User.AddAsync(newadd);
-            }
-            else
-            {
-                context.User.Update(user);
-                await context.SaveChangesAsync();
-            }
-            return Ok();
-
-        }
-
-
-        [HttpPost("AddOrder")]
-        public async Task<IActionResult> AddUser(int id, User user)
-        {
-            var newadd = await context.User.FindAsync(id);
-            if (newadd == null)
-            {
-                newadd.Name = user.Name;
-                await context.User.AddAsync(newadd);
-            }
-            else
-            {
-                context.User.Update(user);
-                await context.SaveChangesAsync();
-            }
-            return Ok();
-
+            var user = 
         }
     }
 }
