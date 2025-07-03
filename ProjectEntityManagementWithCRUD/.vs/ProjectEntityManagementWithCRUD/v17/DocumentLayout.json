@@ -146,9 +146,9 @@
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "ProjectEntityManagementWithCRUD\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD\\Controllers\\UserController.cs",
-              "RelativeToolTip": "ProjectEntityManagementWithCRUD\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABWAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\ProjectEntityManagementWithCRUD\\ProjectEntityManagementWithCRUD\\Controllers\\UserController.cs*",
+              "RelativeToolTip": "ProjectEntityManagementWithCRUD\\Controllers\\UserController.cs*",
+              "ViewState": "AgIAABMAAAAAAAAAAAAzwCoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-17T07:11:00.6Z",
               "EditorCaption": ""
@@ -199,8 +199,7 @@
               "RelativeToolTip": "ProjectEntityManagementWithCRUD\\Models\\DTO\\ProductCreateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T10:26:41.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T10:26:41.858Z"
             },
             {
               "$type": "Document",
@@ -224,8 +223,7 @@
               "RelativeToolTip": "ProjectEntityManagementWithCRUD\\Controllers\\CategoryController.cs",
               "ViewState": "AgIAAEkAAAAAAAAAAAAkwEEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T04:21:01.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T04:21:01.819Z"
             },
             {
               "$type": "Document",
@@ -237,8 +235,7 @@
               "RelativeToolTip": "ProjectEntityManagementWithCRUD\\Controllers\\ProductController.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAYwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T04:20:36.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T04:20:36.756Z"
             },
             {
               "$type": "Document",
@@ -262,8 +259,7 @@
               "RelativeToolTip": "ProjectEntityManagementWithCRUD\\Models\\Users.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAwwBsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T03:52:56.987Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T03:52:56.987Z"
             },
             {
               "$type": "Document",
@@ -275,8 +271,7 @@
               "RelativeToolTip": "ProjectEntityManagementWithCRUD\\DBcontext\\DBContextFile.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAA4wBMAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T03:54:20.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T03:54:20.742Z"
             },
             {
               "$type": "Document",
@@ -300,8 +295,7 @@
               "RelativeToolTip": "ProjectEntityManagementWithCRUD\\Models\\Orders.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T03:53:25.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T03:53:25.656Z"
             },
             {
               "$type": "Document",
@@ -313,8 +307,7 @@
               "RelativeToolTip": "ProjectEntityManagementWithCRUD\\Models\\Products.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwBYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T03:53:14.611Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T03:53:14.611Z"
             }
           ]
         },

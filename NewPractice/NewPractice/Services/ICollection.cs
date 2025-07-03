@@ -2,7 +2,7 @@
 
 namespace NewPractice.Services
 {
-    public interface ICollection
+    public interface ICollectionss
     {
         public Task<User> AddUpdateUser (User user);
         public Task<Product> AddUpdateProduct (Product product);

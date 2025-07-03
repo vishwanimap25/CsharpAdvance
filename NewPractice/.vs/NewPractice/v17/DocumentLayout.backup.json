@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{FA59AB82-1690-43A6-A213-CE0A62D7964A}|NewPractice\\NewPractice.csproj|solutionrelative:newpractice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA59AB82-1690-43A6-A213-CE0A62D7964A}|NewPractice\\NewPractice.csproj|c:\\users\\nimap\\source\\csharpadvance\\newpractice\\newpractice\\services\\homeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA59AB82-1690-43A6-A213-CE0A62D7964A}|NewPractice\\NewPractice.csproj|solutionrelative:newpractice\\services\\homeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FA59AB82-1690-43A6-A213-CE0A62D7964A}|NewPractice\\NewPractice.csproj|c:\\users\\nimap\\source\\csharpadvance\\newpractice\\newpractice\\services\\icollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA59AB82-1690-43A6-A213-CE0A62D7964A}|NewPractice\\NewPractice.csproj|solutionrelative:newpractice\\services\\icollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA59AB82-1690-43A6-A213-CE0A62D7964A}|NewPractice\\NewPractice.csproj|c:\\users\\nimap\\source\\csharpadvance\\newpractice\\newpractice\\services\\homeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA59AB82-1690-43A6-A213-CE0A62D7964A}|NewPractice\\NewPractice.csproj|solutionrelative:newpractice\\services\\homeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA59AB82-1690-43A6-A213-CE0A62D7964A}|NewPractice\\NewPractice.csproj|c:\\users\\nimap\\source\\csharpadvance\\newpractice\\newpractice\\db context\\applicationdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,26 +66,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HomeServices.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\NewPractice\\NewPractice\\Services\\HomeServices.cs",
               "RelativeDocumentMoniker": "NewPractice\\Services\\HomeServices.cs",
               "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\NewPractice\\NewPractice\\Services\\HomeServices.cs",
               "RelativeToolTip": "NewPractice\\Services\\HomeServices.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAkwD4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAiwFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T06:40:34.933Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ICollection.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\NewPractice\\NewPractice\\Services\\ICollection.cs",
               "RelativeDocumentMoniker": "NewPractice\\Services\\ICollection.cs",
               "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\NewPractice\\NewPractice\\Services\\ICollection.cs",
               "RelativeToolTip": "NewPractice\\Services\\ICollection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T06:40:22.642Z",
               "EditorCaption": ""
@@ -98,7 +98,7 @@
               "RelativeDocumentMoniker": "NewPractice\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\NewPractice\\NewPractice\\Controllers\\HomeController.cs",
               "RelativeToolTip": "NewPractice\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T10:12:04.74Z",
               "EditorCaption": ""

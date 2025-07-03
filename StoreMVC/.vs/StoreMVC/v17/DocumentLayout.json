@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|c:\\users\\nimap\\source\\csharpadvance\\storemvc\\storemvc\\views\\user\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|solutionrelative:storemvc\\views\\user\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|c:\\users\\nimap\\source\\csharpadvance\\storemvc\\storemvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|solutionrelative:storemvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|c:\\users\\nimap\\source\\csharpadvance\\storemvc\\storemvc\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|solutionrelative:storemvc\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|c:\\users\\nimap\\source\\csharpadvance\\storemvc\\storemvc\\views\\user\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|solutionrelative:storemvc\\views\\user\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|c:\\users\\nimap\\source\\csharpadvance\\storemvc\\storemvc\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -67,10 +71,6 @@
       "RelativeMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|solutionrelative:storemvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|c:\\users\\nimap\\source\\csharpadvance\\storemvc\\storemvc\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|solutionrelative:storemvc\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|c:\\users\\nimap\\source\\csharpadvance\\storemvc\\storemvc\\models\\dto\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EACA806B-3F3C-4B94-8157-A03F97842653}|StoreMVC\\StoreMVC.csproj|solutionrelative:storemvc\\models\\dto\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -90,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 259,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "AccessDenied.cshtml",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Views\\User\\AccessDenied.cshtml",
               "RelativeDocumentMoniker": "StoreMVC\\Views\\User\\AccessDenied.cshtml",
@@ -114,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "StoreMVC\\Controllers\\HomeController.cs",
@@ -126,19 +126,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 1,
               "Title": "ApplicationDBcontext.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Services\\ApplicationDBcontext.cs",
               "RelativeDocumentMoniker": "StoreMVC\\Services\\ApplicationDBcontext.cs",
               "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Services\\ApplicationDBcontext.cs",
               "RelativeToolTip": "StoreMVC\\Services\\ApplicationDBcontext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T10:21:39.796Z"
+              "WhenOpened": "2025-06-30T10:21:39.796Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\appsettings.json",
               "RelativeDocumentMoniker": "StoreMVC\\appsettings.json",
@@ -162,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Views\\User\\Login.cshtml",
               "RelativeDocumentMoniker": "StoreMVC\\Views\\User\\Login.cshtml",
@@ -174,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ProSubscriptionAuthetication.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Filters\\ProSubscriptionAuthetication.cs",
               "RelativeDocumentMoniker": "StoreMVC\\Filters\\ProSubscriptionAuthetication.cs",
@@ -210,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Views\\Products\\Index.cshtml",
               "RelativeDocumentMoniker": "StoreMVC\\Views\\Products\\Index.cshtml",
@@ -222,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Views\\Products\\Create.cshtml",
               "RelativeDocumentMoniker": "StoreMVC\\Views\\Products\\Create.cshtml",
@@ -234,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UserReadDto.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Models\\Dto\\UserReadDto.cs",
               "RelativeDocumentMoniker": "StoreMVC\\Models\\Dto\\UserReadDto.cs",
@@ -246,20 +247,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Adduser.cshtml",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Views\\User\\Adduser.cshtml",
               "RelativeDocumentMoniker": "StoreMVC\\Views\\User\\Adduser.cshtml",
               "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Views\\User\\Adduser.cshtml",
               "RelativeToolTip": "StoreMVC\\Views\\User\\Adduser.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAACgAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-27T09:09:25.818Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Views\\User\\Index.cshtml",
               "RelativeDocumentMoniker": "StoreMVC\\Views\\User\\Index.cshtml",
@@ -271,19 +272,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "StoreMVC\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Controllers\\UserController.cs",
               "RelativeToolTip": "StoreMVC\\Controllers\\UserController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAkwEYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T07:33:08.824Z"
+              "WhenOpened": "2025-06-27T07:33:08.824Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Models\\User.cs",
               "RelativeDocumentMoniker": "StoreMVC\\Models\\User.cs",
@@ -295,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "StoreMVC\\Views\\Shared\\_Layout.cshtml",
@@ -307,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Models\\Dto\\ProductDto.cs",
               "RelativeDocumentMoniker": "StoreMVC\\Models\\Dto\\ProductDto.cs",
@@ -319,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "StoreMVC\\Controllers\\ProductsController.cs",
@@ -331,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Program.cs",
               "RelativeDocumentMoniker": "StoreMVC\\Program.cs",

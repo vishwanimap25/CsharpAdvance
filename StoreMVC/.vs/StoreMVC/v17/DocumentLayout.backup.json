@@ -110,8 +110,7 @@
               "RelativeToolTip": "StoreMVC\\Views\\User\\AccessDenied.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-02T09:17:01.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T09:17:01.57Z"
             },
             {
               "$type": "Document",
@@ -123,8 +122,7 @@
               "RelativeToolTip": "StoreMVC\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T09:01:46.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T09:01:46.272Z"
             },
             {
               "$type": "Document",
@@ -148,8 +146,7 @@
               "RelativeToolTip": "StoreMVC\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-30T09:25:38.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T09:25:38.609Z"
             },
             {
               "$type": "Document",
@@ -173,8 +170,7 @@
               "RelativeToolTip": "StoreMVC\\Views\\User\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-30T06:29:07.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T06:29:07.346Z"
             },
             {
               "$type": "Document",
@@ -186,8 +182,7 @@
               "RelativeToolTip": "StoreMVC\\Filters\\ProSubscriptionAuthetication.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T12:35:17.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T12:35:17.249Z"
             },
             {
               "$type": "Document",
@@ -223,8 +218,7 @@
               "RelativeToolTip": "StoreMVC\\Views\\Products\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-27T11:26:44.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T11:26:44.557Z"
             },
             {
               "$type": "Document",
@@ -236,8 +230,7 @@
               "RelativeToolTip": "StoreMVC\\Views\\Products\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-27T10:25:10.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T10:25:10.016Z"
             },
             {
               "$type": "Document",
@@ -249,8 +242,7 @@
               "RelativeToolTip": "StoreMVC\\Models\\Dto\\UserReadDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T10:16:10.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T10:16:10.162Z"
             },
             {
               "$type": "Document",
@@ -260,7 +252,7 @@
               "RelativeDocumentMoniker": "StoreMVC\\Views\\User\\Adduser.cshtml",
               "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\StoreMVC\\StoreMVC\\Views\\User\\Adduser.cshtml",
               "RelativeToolTip": "StoreMVC\\Views\\User\\Adduser.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAACgAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-27T09:09:25.818Z",
               "EditorCaption": ""
@@ -275,8 +267,7 @@
               "RelativeToolTip": "StoreMVC\\Views\\User\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-27T08:56:46.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T08:56:46.96Z"
             },
             {
               "$type": "Document",
@@ -288,8 +279,7 @@
               "RelativeToolTip": "StoreMVC\\Controllers\\UserController.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAkwEYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T07:33:08.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T07:33:08.824Z"
             },
             {
               "$type": "Document",
@@ -301,8 +291,7 @@
               "RelativeToolTip": "StoreMVC\\Models\\User.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAAwA8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T07:29:00.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T07:29:00.988Z"
             },
             {
               "$type": "Document",
@@ -314,8 +303,7 @@
               "RelativeToolTip": "StoreMVC\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAACQAAAAAAAAAAAAAADIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T12:39:59.284Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T12:39:59.284Z"
             },
             {
               "$type": "Document",
@@ -327,8 +315,7 @@
               "RelativeToolTip": "StoreMVC\\Models\\Dto\\ProductDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T11:12:40.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T11:12:40.006Z"
             },
             {
               "$type": "Document",
@@ -340,8 +327,7 @@
               "RelativeToolTip": "StoreMVC\\Controllers\\ProductsController.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAmwAkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T10:08:06.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T10:08:06.818Z"
             },
             {
               "$type": "Document",
@@ -353,8 +339,7 @@
               "RelativeToolTip": "StoreMVC\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T09:17:24.467Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T09:17:24.467Z"
             }
           ]
         },
