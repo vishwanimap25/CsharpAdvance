@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Nimap\\source\\CSharpAdvance\\AuthticationForMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6DA0E30-43A5-402C-AD26-0AD2809D59BA}|AuthticationForMVC\\AuthticationForMVC.csproj|c:\\users\\nimap\\source\\csharpadvance\\authticationformvc\\authticationformvc\\controllers\\authcontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6DA0E30-43A5-402C-AD26-0AD2809D59BA}|AuthticationForMVC\\AuthticationForMVC.csproj|solutionrelative:authticationformvc\\controllers\\authcontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6DA0E30-43A5-402C-AD26-0AD2809D59BA}|AuthticationForMVC\\AuthticationForMVC.csproj|c:\\users\\nimap\\source\\csharpadvance\\authticationformvc\\authticationformvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DA0E30-43A5-402C-AD26-0AD2809D59BA}|AuthticationForMVC\\AuthticationForMVC.csproj|solutionrelative:authticationformvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6DA0E30-43A5-402C-AD26-0AD2809D59BA}|AuthticationForMVC\\AuthticationForMVC.csproj|c:\\users\\nimap\\source\\csharpadvance\\authticationformvc\\authticationformvc\\db context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6DA0E30-43A5-402C-AD26-0AD2809D59BA}|AuthticationForMVC\\AuthticationForMVC.csproj|solutionrelative:authticationformvc\\db context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6DA0E30-43A5-402C-AD26-0AD2809D59BA}|AuthticationForMVC\\AuthticationForMVC.csproj|c:\\users\\nimap\\source\\csharpadvance\\authticationformvc\\authticationformvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F6DA0E30-43A5-402C-AD26-0AD2809D59BA}|AuthticationForMVC\\AuthticationForMVC.csproj|solutionrelative:authticationformvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DA0E30-43A5-402C-AD26-0AD2809D59BA}|AuthticationForMVC\\AuthticationForMVC.csproj|c:\\users\\nimap\\source\\csharpadvance\\authticationformvc\\authticationformvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6DA0E30-43A5-402C-AD26-0AD2809D59BA}|AuthticationForMVC\\AuthticationForMVC.csproj|solutionrelative:authticationformvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DA0E30-43A5-402C-AD26-0AD2809D59BA}|AuthticationForMVC\\AuthticationForMVC.csproj|c:\\users\\nimap\\source\\csharpadvance\\authticationformvc\\authticationformvc\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6DA0E30-43A5-402C-AD26-0AD2809D59BA}|AuthticationForMVC\\AuthticationForMVC.csproj|solutionrelative:authticationformvc\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DA0E30-43A5-402C-AD26-0AD2809D59BA}|AuthticationForMVC\\AuthticationForMVC.csproj|c:\\users\\nimap\\source\\csharpadvance\\authticationformvc\\authticationformvc\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6DA0E30-43A5-402C-AD26-0AD2809D59BA}|AuthticationForMVC\\AuthticationForMVC.csproj|solutionrelative:authticationformvc\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DA0E30-43A5-402C-AD26-0AD2809D59BA}|AuthticationForMVC\\AuthticationForMVC.csproj|c:\\users\\nimap\\source\\csharpadvance\\authticationformvc\\authticationformvc\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DA0E30-43A5-402C-AD26-0AD2809D59BA}|AuthticationForMVC\\AuthticationForMVC.csproj|solutionrelative:authticationformvc\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6DA0E30-43A5-402C-AD26-0AD2809D59BA}|AuthticationForMVC\\AuthticationForMVC.csproj|c:\\users\\nimap\\source\\csharpadvance\\authticationformvc\\authticationformvc\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6DA0E30-43A5-402C-AD26-0AD2809D59BA}|AuthticationForMVC\\AuthticationForMVC.csproj|solutionrelative:authticationformvc\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6DA0E30-43A5-402C-AD26-0AD2809D59BA}|AuthticationForMVC\\AuthticationForMVC.csproj|c:\\users\\nimap\\source\\csharpadvance\\authticationformvc\\authticationformvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F6DA0E30-43A5-402C-AD26-0AD2809D59BA}|AuthticationForMVC\\AuthticationForMVC.csproj|solutionrelative:authticationformvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F6DA0E30-43A5-402C-AD26-0AD2809D59BA}|AuthticationForMVC\\AuthticationForMVC.csproj|c:\\users\\nimap\\source\\csharpadvance\\authticationformvc\\authticationformvc\\db context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DA0E30-43A5-402C-AD26-0AD2809D59BA}|AuthticationForMVC\\AuthticationForMVC.csproj|solutionrelative:authticationformvc\\db context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +42,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 259,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\AuthticationForMVC\\AuthticationForMVC\\Program.cs",
+              "RelativeDocumentMoniker": "AuthticationForMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\AuthticationForMVC\\AuthticationForMVC\\Program.cs",
+              "RelativeToolTip": "AuthticationForMVC\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAiwCgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T10:16:14.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\AuthticationForMVC\\AuthticationForMVC\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "AuthticationForMVC\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\AuthticationForMVC\\AuthticationForMVC\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "AuthticationForMVC\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-04T10:10:23.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\AuthticationForMVC\\AuthticationForMVC\\Views\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "AuthticationForMVC\\Views\\Auth\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\AuthticationForMVC\\AuthticationForMVC\\Views\\Auth\\Register.cshtml",
+              "RelativeToolTip": "AuthticationForMVC\\Views\\Auth\\Register.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-04T09:55:09.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\AuthticationForMVC\\AuthticationForMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AuthticationForMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\AuthticationForMVC\\AuthticationForMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AuthticationForMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-04T09:52:50.602Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -38,52 +106,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthController1.cs",
-              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\AuthticationForMVC\\AuthticationForMVC\\Controllers\\AuthController1.cs",
-              "RelativeDocumentMoniker": "AuthticationForMVC\\Controllers\\AuthController1.cs",
-              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\AuthticationForMVC\\AuthticationForMVC\\Controllers\\AuthController1.cs",
-              "RelativeToolTip": "AuthticationForMVC\\Controllers\\AuthController1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\AuthticationForMVC\\AuthticationForMVC\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AuthticationForMVC\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\AuthticationForMVC\\AuthticationForMVC\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AuthticationForMVC\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwC4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-30T09:56:33.016Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\AuthticationForMVC\\AuthticationForMVC\\Db Context\\AppDbContext.cs",
               "RelativeDocumentMoniker": "AuthticationForMVC\\Db Context\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\AuthticationForMVC\\AuthticationForMVC\\Db Context\\AppDbContext.cs",
               "RelativeToolTip": "AuthticationForMVC\\Db Context\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T09:49:40.998Z"
+              "WhenOpened": "2025-06-30T09:49:40.998Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\AuthticationForMVC\\AuthticationForMVC\\Models\\User.cs",
               "RelativeDocumentMoniker": "AuthticationForMVC\\Models\\User.cs",
               "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\AuthticationForMVC\\AuthticationForMVC\\Models\\User.cs",
               "RelativeToolTip": "AuthticationForMVC\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T09:29:18.71Z"
+              "WhenOpened": "2025-06-30T09:29:18.71Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\CSharpAdvance\\AuthticationForMVC\\AuthticationForMVC\\appsettings.json",
               "RelativeDocumentMoniker": "AuthticationForMVC\\appsettings.json",
               "ToolTip": "C:\\Users\\Nimap\\source\\CSharpAdvance\\AuthticationForMVC\\AuthticationForMVC\\appsettings.json",
               "RelativeToolTip": "AuthticationForMVC\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-30T09:23:06Z"
+              "WhenOpened": "2025-06-30T09:23:06Z",
+              "EditorCaption": ""
             }
           ]
         },

@@ -1,13 +1,43 @@
+using System.Text;
+using AuthticationForMVC.Db_Context;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+var newbuild = builder.Configuration.GetConnectionString("dbcs");
+builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(newbuild));
 
-builder.Services.AddAuthentication("MyCookieAuth").AddCookie("MyCookieAuth", options =>
+//builder.Services.AddAuthentication("MyCookieAuth").AddCookie("MyCookieAuth", options =>
+//{
+//    options.LoginPath = "/";
+//    options.AccessDeniedPath = "/";
+//});
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        var config = builder.Configuration.GetSection("Jwt");
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = config["Issuer"],
+            ValidAudience = config["Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["Key"]))
+        };
+
+    });
+
+builder.Services.AddHttpClient("API", client =>
 {
-    options.LoginPath = "/";
-    options.AccessDeniedPath = "/";
+    client.BaseAddress = new Uri("https://localhost:7088/");
 });
 
 var app = builder.Build();

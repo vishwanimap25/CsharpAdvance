@@ -1,0 +1,39 @@
+﻿@model User
+@{
+}
+
+	<h2 class="mt-5">Register</h2>
+	<div class="w-100">
+		<form method="post" class="">
+			<fieldset class="">
+				<legend>Add Users</legend>
+				<!--Name-->
+				<div class="my-2">
+					<label for="Name">Name : </label>
+					<input type="text" class="form-control w-25" name="Name" value="" />
+				</div>
+				<!--Email-->
+				<div class="my-2">
+					<label for="Email">Email :</label>
+					<input type="email" class="form-control w-25" name="Email" value="" />
+				</div>
+				<!--Password-->
+				<div class="my-2">
+					<label for="Password">Password : </label>
+					<input type="password" class="form-control w-25" name="Password" value="" />
+				</div>
+				<!--Role-->
+				<div class="my-2">
+					<label for="Role">Role :</label>
+					<input type="text" class="form-control w-25" name="Role" value="" />
+
+				</div>
+				<div class="my-2 w-25 d-flex align-items-center justify-content-evenly gap-2">
+					<a class="btn btn-outline-primary w-50" type="submit" asp-controller="Auth" asp-action="Login">submit</a>
+					<a class="btn btn-primary w-50 " type="submit" asp-controller="Auth" asp-action="Login">Login</a>
+				</div>
+			</fieldset>
+		</form>
+
+	</div>
+
